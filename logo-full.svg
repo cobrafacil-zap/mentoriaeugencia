@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 360" role="img" aria-label="Social Marketing EUA">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Social Marketing EUA">
   <defs>
     <linearGradient id="brGrad" x1="0" x2="0" y1="0" y2="1">
       <stop offset="0" stop-color="#1FB874"/><stop offset="1" stop-color="#148F5C"/>
@@ -25,51 +25,27 @@
   </defs>
 
   <!-- ============ Mastro centralizado ============ -->
-  <g transform="translate(300,30)">
-    <!-- Mastro vertical -->
+  <g transform="translate(360,30)">
     <rect x="-2" y="0" width="4" height="180" rx="2" fill="#A9B0BF"/>
-    <!-- Bolinha topo -->
     <circle cx="0" cy="2" r="6" fill="#22D3EE"/>
     <circle cx="0" cy="2" r="11" fill="#22D3EE" opacity=".22"/>
 
-    <!-- ============ Bandeira BR (esquerda) ============ -->
+    <!-- Bandeira BR (esquerda) -->
     <g transform="translate(-220,12)">
-      <!-- Bandeira com leve ondulação -->
-      <path d="M 0 0
-               Q 50 -5 100 0
-               Q 150 5 200 0
-               L 200 130
-               Q 150 135 100 130
-               Q 50 125 0 130 Z"
-            fill="url(#brGrad)" filter="url(#shadow)"/>
-      <!-- Losango amarelo -->
+      <path d="M 0 0 Q 50 -5 100 0 Q 150 5 200 0 L 200 130 Q 150 135 100 130 Q 50 125 0 130 Z" fill="url(#brGrad)" filter="url(#shadow)"/>
       <polygon points="100,18 162,65 100,112 38,65" fill="url(#brYel)"/>
-      <!-- Círculo azul central -->
       <circle cx="100" cy="65" r="22" fill="#2C4A82"/>
-      <!-- Faixa branca do círculo -->
       <path d="M 82 58 Q 100 65 118 58" stroke="#F2F4F7" stroke-width="2" fill="none" stroke-linecap="round"/>
       <path d="M 82 72 Q 100 65 118 72" stroke="#F2F4F7" stroke-width="2" fill="none" stroke-linecap="round"/>
     </g>
 
-    <!-- ============ Bandeira EUA (direita) ============ -->
+    <!-- Bandeira EUA (direita) -->
     <g transform="translate(20,12)">
-      <!-- Tiras vermelhas/brancas alternadas com ondulação -->
-      <path d="M 0 0
-               Q 40 -4 80 0
-               Q 120 4 160 0
-               Q 180 -2 200 0
-               L 200 120
-               Q 180 122 160 120
-               Q 120 124 80 120
-               Q 40 116 0 120 Z"
-            fill="url(#usRed)" filter="url(#shadow)"/>
-      <!-- Listras brancas -->
+      <path d="M 0 0 Q 40 -4 80 0 Q 120 4 160 0 Q 180 -2 200 0 L 200 120 Q 180 122 160 120 Q 120 124 80 120 Q 40 116 0 120 Z" fill="url(#usRed)" filter="url(#shadow)"/>
       <path d="M 0 18 Q 40 14 80 18 Q 120 22 160 18 Q 180 16 200 18 L 200 34 Q 180 36 160 34 Q 120 38 80 34 Q 40 30 0 34 Z" fill="#F2F4F7"/>
       <path d="M 0 52 Q 40 48 80 52 Q 120 56 160 52 Q 180 50 200 52 L 200 68 Q 180 70 160 68 Q 120 72 80 68 Q 40 64 0 68 Z" fill="#F2F4F7"/>
       <path d="M 0 86 Q 40 82 80 86 Q 120 90 160 86 Q 180 84 200 86 L 200 102 Q 180 104 160 102 Q 120 106 80 102 Q 40 98 0 102 Z" fill="#F2F4F7"/>
-      <!-- Canton azul -->
       <path d="M 0 0 Q 40 -4 80 0 Q 90 -1 100 0 L 100 46 Q 90 47 80 46 Q 40 50 0 46 Z" fill="url(#usNavy)"/>
-      <!-- Estrelinhas -->
       <g fill="#F2F4F7">
         <circle cx="10" cy="8" r="1.6"/><circle cx="22" cy="8" r="1.6"/><circle cx="34" cy="8" r="1.6"/><circle cx="46" cy="8" r="1.6"/><circle cx="58" cy="8" r="1.6"/><circle cx="70" cy="8" r="1.6"/><circle cx="82" cy="8" r="1.6"/>
         <circle cx="16" cy="18" r="1.6"/><circle cx="28" cy="18" r="1.6"/><circle cx="40" cy="18" r="1.6"/><circle cx="52" cy="18" r="1.6"/><circle cx="64" cy="18" r="1.6"/><circle cx="76" cy="18" r="1.6"/>
@@ -78,17 +54,16 @@
       </g>
     </g>
 
-    <!-- Bolinha embaixo do mastro -->
     <circle cx="0" cy="178" r="5" fill="#22D3EE" opacity=".7"/>
   </g>
 
   <!-- ============ Texto centralizado ============ -->
   <g font-family="'Archivo', system-ui, sans-serif" text-anchor="middle">
     <!-- Linha única: SOCIAL MARKETING EUA -->
-    <text x="300" y="280" font-size="56" font-weight="800" fill="#F2F4F7" letter-spacing="3">SOCIAL MARKETING <tspan fill="url(#cyanText)" font-weight="900">EUA</tspan></text>
-    <!-- Linha decorativa curta -->
-    <rect x="260" y="298" width="80" height="3" rx="1.5" fill="#22D3EE"/>
+    <text x="360" y="280" font-size="48" font-weight="800" fill="#F2F4F7" letter-spacing="3">SOCIAL MARKETING <tspan fill="url(#cyanText)" font-weight="900">EUA</tspan></text>
+    <!-- Linha decorativa -->
+    <rect x="320" y="298" width="80" height="3" rx="1.5" fill="#22D3EE"/>
     <!-- Subtítulo -->
-    <text x="300" y="328" font-size="14" font-weight="600" fill="#8B93A5" letter-spacing="5" font-family="'Inter', system-ui, sans-serif">CAPTAÇÃO DE CLIENTES NOS EUA</text>
+    <text x="360" y="328" font-size="13" font-weight="600" fill="#8B93A5" letter-spacing="5" font-family="'Inter', system-ui, sans-serif">CAPTAÇÃO DE CLIENTES NOS EUA</text>
   </g>
 </svg>
