@@ -519,22 +519,31 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   }
   .eugencia-top{
     position:relative; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:14px;
-    padding:28px 32px; border-bottom:1px solid var(--border-soft);
+    padding:24px 28px; border-bottom:1px solid var(--border-soft);
   }
-  .eugencia-title{ display:flex; align-items:center; gap:12px; font-family:var(--f-display); font-weight:800; font-size:18px; letter-spacing:.02em; }
-  .eugencia-title .dot{ width:9px; height:9px; border-radius:50%; background:var(--cyan); box-shadow:0 0 12px 3px var(--cyan-glow); animation:blink 1.8s infinite; }
+  .eugencia-title{ display:flex; align-items:center; gap:12px; font-family:var(--f-display); font-weight:800; font-size:18px; letter-spacing:.02em; min-width:0; flex:1 1 auto; }
+  .eugencia-title > .dot{ flex-shrink:0; width:9px; height:9px; border-radius:50%; background:var(--cyan); box-shadow:0 0 12px 3px var(--cyan-glow); animation:blink 1.8s infinite; }
+  .eugencia-title > span:not(.dot),
+  .eugencia-title{ white-space:normal; word-break:break-word; }
+  .eugencia-top .status-pill{ flex-shrink:0; }
   .status-pill{
     display:inline-flex; align-items:center; gap:8px; font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
     color:var(--on-cyan); background:var(--cyan); padding:9px 18px; border-radius:100px;
   }
   .eugencia-grid{ position:relative; display:grid; grid-template-columns:repeat(2,1fr); }
-  @media (max-width:700px){ .eugencia-grid{ grid-template-columns:1fr; } }
+  @media (max-width:880px){ .eugencia-grid{ grid-template-columns:1fr; } }
   .eugencia-row{
     display:flex; align-items:center; justify-content:space-between; gap:16px;
-    padding:22px 32px; border-bottom:1px solid var(--border-soft);
+    padding:20px 28px; border-bottom:1px solid var(--border-soft);
   }
   .eugencia-grid .eugencia-row:nth-child(odd){ border-right:1px solid var(--border-soft); }
-  @media (max-width:700px){ .eugencia-grid .eugencia-row:nth-child(odd){ border-right:none; } }
+  @media (max-width:880px){ .eugencia-grid .eugencia-row:nth-child(odd){ border-right:none; } }
+  /* Em 2 colunas, garante que cada par (linha 1+2, 3+4) esteja alinhado: borda inferior só nos últimos de cada coluna */
+  .eugencia-grid .eugencia-row:nth-child(2){ border-bottom:none; }
+  @media (max-width:880px){
+    .eugencia-grid .eugencia-row:nth-child(2){ border-bottom:1px solid var(--border-soft); }
+  }
+  .eugencia-row .label{ min-width:0; flex:1 1 auto; }
   .eugencia-row .label b{ display:block; font-family:var(--f-display); font-weight:700; font-size:15.5px; color:var(--text); margin-bottom:3px; }
   .eugencia-row .label span{ font-size:12.5px; color:var(--text-faint); }
   .switch{ width:44px; height:25px; border-radius:100px; background:var(--border); position:relative; flex-shrink:0; transition:background .3s var(--ease); }
@@ -542,10 +551,24 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   .switch.on{ background:var(--cyan-dim); }
   .switch.on::after{ transform:translateX(19px); background:var(--cyan); box-shadow:0 0 10px 1px var(--cyan-glow); }
   .eugencia-foot{
-    position:relative; text-align:center; padding:22px 32px; font-size:13px; color:var(--text-muted);
+    position:relative; text-align:center; padding:20px 28px; font-size:13px; color:var(--text-muted);
   }
   .eugencia-foot b{ color:var(--cyan); }
   @keyframes blink{ 0%,100%{opacity:1;} 50%{opacity:.25;} }
+
+  /* ===================== AJUSTE FINO DO PAINEL EUGÊNCIA NO MOBILE ===================== */
+  @media (max-width:560px){
+    .eugencia-top{ padding:18px 18px; gap:10px; }
+    .eugencia-title{ font-size:15.5px; gap:10px; }
+    .status-pill{ font-size:10.5px; padding:7px 13px; letter-spacing:.06em; }
+    .eugencia-row{ padding:16px 18px; gap:14px; }
+    .eugencia-row .label b{ font-size:14.5px; }
+    .eugencia-row .label span{ font-size:11.5px; }
+    .switch{ width:40px; height:22px; }
+    .switch::after{ width:16px; height:16px; top:3px; left:3px; }
+    .switch.on::after{ transform:translateX(18px); }
+    .eugencia-foot{ padding:16px 18px; font-size:12px; }
+  }
 
   /* ===================== SERVIÇOS (cards) ===================== */
   .pillars-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
