@@ -21,91 +21,60 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-<title>Eugência — Tráfego pago que capta clientes nos EUA</title>
-<meta name="description" content="Serviço de tráfego pago para brasileiros nos EUA: Google Ads, Google Guaranteed, Google Local Services, Meta Ads e Call Center. A gente busca clientes novos para o seu negócio de serviço.">
-<meta property="og:title" content="Eugência — Tráfego pago que capta clientes nos EUA">
-<meta property="og:description" content="Google Ads, Google Guaranteed, Local Services, Meta Ads e Call Center — a gente coloca sua empresa na frente de quem está procurando agora.">
+<title>Eugência — Captação de clientes nos EUA para brasileiros</title>
+<meta name="description" content="Serviço de captação de clientes nos EUA: Google Ads, Google Guaranteed, Google Local Services, Meta Ads e Call Center bilíngue. Brasileiros donos de negócio de serviço recebem leads prontos no WhatsApp.">
+<meta property="og:title" content="Eugência — Captação de clientes nos EUA para brasileiros">
+<meta property="og:description" content="A gente capta clientes novos pro seu negócio de serviço nos EUA. Todos os dias.">
 <meta property="og:type" content="website">
 <link rel="icon" type="image/png" href="logo-icon.png">
 <link rel="apple-touch-icon" href="logo-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   /* ===================== TOKENS ===================== */
   :root{
-    --bg:            #080B14;
-    --bg-alt:        #0B0F1A;
-    --surface:       #111726;
-    --surface-2:     #161D2E;
-    --border:        #242D40;
-    --border-soft:   #1A2131;
+    --bg:            #0A0D14;
+    --bg-2:          #0F1320;
+    --surface:       #161B2D;
+    --surface-2:     #1B2238;
+    --border:        #2A3148;
+    --border-soft:   #1F2538;
 
-    --text:          #F2F4F7;
-    --text-muted:    #8B93A5;
-    --text-faint:    #5B6478;
+    --text:          #EFEAE0;
+    --text-muted:    #8B8675;
+    --text-faint:    #5E5B52;
 
-    --cyan:          #22D3EE;
-    --cyan-dim:      #0E8FA8;
-    --cyan-glow:     rgba(34,211,238,.35);
-    --cyan-soft:     rgba(34,211,238,.09);
-    --on-cyan:       #04110F;
+    --accent:        #FF5A1F;
+    --accent-soft:   rgba(255,90,31,.10);
+    --accent-line:   rgba(255,90,31,.28);
+    --on-accent:     #1A0805;
+
+    --green:         #16A47D;
+    --green-soft:    rgba(22,164,125,.12);
 
     --br-green:      #17A567;
-    --br-yellow:     #FFC933;
     --us-red:        #D2394A;
-    --us-navy:       #2C4A82;
 
-    --header-bg:     rgba(10,13,18,.72);
-    --sticky-bg:     rgba(10,13,18,.92);
+    --wa:            #25D366;
 
-    --radius-s: 10px;
-    --radius-m: 16px;
-    --radius-l: 24px;
+    --radius-s: 6px;
+    --radius-m: 10px;
+    --radius-l: 14px;
 
-    --maxw: 1180px;
+    --maxw: 1140px;
 
-    --f-display: 'Archivo', sans-serif;
-    --f-body: 'Inter', sans-serif;
+    --f-display: 'Bricolage Grotesque', system-ui, sans-serif;
+    --f-body:    'Inter', system-ui, sans-serif;
 
-    --ease: cubic-bezier(.16,.84,.44,1);
-  }
-
-  /* ===================== MODO CLARO ===================== */
-  html[data-theme="light"]{
-    --bg:            #FBFCFE;
-    --bg-alt:        #F2F4F8;
-    --surface:       #FFFFFF;
-    --surface-2:     #F3F5F9;
-    --border:        #E1E5EC;
-    --border-soft:   #EAEDF2;
-
-    --text:          #10131C;
-    --text-muted:    #525B6E;
-    --text-faint:    #8891A2;
-
-    --cyan:          #0891B2;
-    --cyan-dim:      #067188;
-    --cyan-glow:     rgba(8,145,178,.22);
-    --cyan-soft:     rgba(8,145,178,.08);
-    --on-cyan:       #FFFFFF;
-
-    --header-bg:     rgba(255,255,255,.78);
-    --sticky-bg:     rgba(255,255,255,.94);
-  }
-  html{ transition:background .3s var(--ease); }
-  body{ transition:background .3s var(--ease), color .3s var(--ease); }
-  .site-header, .testi-card, .pillar-card, .offer-card, .faq-item, .diagnostic, .diag-row,
-  .eugencia-panel, .eugencia-row, .niche-chip, .gbadge, .brand-badge, .flag-chip,
-  .btn-ghost, .theme-toggle, .sticky-cta, .switch{
-    transition:background .3s var(--ease), border-color .3s var(--ease), color .3s var(--ease), box-shadow .3s var(--ease);
+    --ease: cubic-bezier(.2,.7,.2,1);
   }
 
   *,*::before,*::after{ box-sizing:border-box; }
   html{ scroll-behavior:smooth; }
   @media (prefers-reduced-motion: reduce){
     html{ scroll-behavior:auto; }
-    *,*::before,*::after{ animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; scroll-behavior:auto !important; }
+    *,*::before,*::after{ animation-duration:.001ms !important; animation-iteration-count:1 !important; transition-duration:.001ms !important; }
   }
 
   body{
@@ -118,595 +87,501 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
     -webkit-font-smoothing:antialiased;
     overflow-x:hidden;
   }
-
   img,svg{ display:block; max-width:100%; }
   a{ color:inherit; text-decoration:none; }
   ul{ margin:0; padding:0; list-style:none; }
   button{ font-family:inherit; }
 
-  ::selection{ background:var(--cyan); color:var(--on-cyan); }
+  ::selection{ background:var(--accent); color:var(--on-accent); }
   a:focus-visible, button:focus-visible, summary:focus-visible{
-    outline:2px solid var(--cyan); outline-offset:3px; border-radius:4px;
+    outline:2px solid var(--accent); outline-offset:3px; border-radius:3px;
   }
   .skip-link{
     position:absolute; left:-999px; top:0; z-index:999;
-    background:var(--cyan); color:var(--on-cyan); padding:12px 20px; border-radius:0 0 8px 0; font-weight:700;
+    background:var(--accent); color:var(--on-accent); padding:12px 20px; font-weight:700;
   }
   .skip-link:focus{ left:0; }
 
-  /* ===================== BANDEIRA FUSÃO BR+EUA ===================== */
-  .hero-flag-wrap{
-    position:relative;
-    display:flex; align-items:flex-end; justify-content:center;
-    margin:0 0 22px;
-  }
-  .hero-flags-glow{
-    position:absolute; inset:-40px -70px; z-index:0;
-    background:
-      radial-gradient(ellipse at 30% 45%, var(--br-green) 0%, transparent 55%),
-      radial-gradient(ellipse at 72% 45%, var(--us-red) 0%, transparent 55%);
-    opacity:.22; filter:blur(34px); pointer-events:none;
-    animation:heroFlagsGlowPulse 4.5s ease-in-out infinite;
-  }
-  @keyframes heroFlagsGlowPulse{ 0%,100%{ opacity:.16; } 50%{ opacity:.30; } }
-
-  .hero-flag-fusion{
-    position:relative; z-index:1;
-    width:min(54vw,260px);
-    transform-origin:2% 8%;
-    animation:flagPoleSway 3.4s ease-in-out infinite;
-    filter:drop-shadow(0 16px 26px rgba(0,0,0,.4));
-  }
-  .hero-flag-fusion svg{ width:100%; height:auto; overflow:visible; display:block; }
-  @keyframes flagPoleSway{
-    0%,100%{ transform:rotate(-1.6deg); }
-    50%{ transform:rotate(1.6deg); }
-  }
-
-  @media (max-width:640px){
-    .hero-flag-fusion{ width:min(72vw,220px); }
-  }
-  @media (prefers-reduced-motion: reduce){
-    .hero-flag-fusion{ animation:none !important; transform:none !important; }
-  }
-
-  .container{ width:100%; max-width:var(--maxw); margin:0 auto; padding:0 24px; }
-
-  .grid-texture{
-    position:absolute; inset:0;
-    background-image:
-      linear-gradient(to right, rgba(255,255,255,.025) 1px, transparent 1px),
-      linear-gradient(to bottom, rgba(255,255,255,.025) 1px, transparent 1px);
-    background-size:56px 56px;
-    pointer-events:none;
-    mask-image:radial-gradient(ellipse 70% 60% at 50% 0%, #000 30%, transparent 90%);
-    animation:gridDrift 40s linear infinite;
-  }
-  @keyframes gridDrift{ from{ background-position:0 0; } to{ background-position:56px 56px; } }
-
-  /* ===================== TYPE ===================== */
-  .label-tag{
-    font-family:var(--f-body);
-    font-weight:700;
-    font-size:11.5px;
-    letter-spacing:.12em;
-    text-transform:uppercase;
-    color:var(--cyan);
-    display:inline-flex;
-    align-items:center;
-    gap:9px;
-    margin:0 0 16px;
-    background:var(--cyan-soft);
-    border:1px solid var(--cyan-dim);
-    padding:9px 18px 9px 14px;
-    border-radius:100px;
-  }
-  .label-tag::before{
-    content:''; width:6px; height:6px; background:var(--cyan); border-radius:50%;
-    box-shadow:0 0 10px 2px var(--cyan-glow); flex-shrink:0;
-  }
-
-  h1,h2,h3,h4{
-    font-family:var(--f-display);
-    font-weight:800;
-    line-height:1.1;
-    letter-spacing:-.015em;
-    margin:0;
-    color:var(--text);
-  }
-
-  .section-title{ font-size:clamp(26px, 3.8vw, 42px); max-width:720px; }
-  .section-title .accent{ color:var(--cyan); }
-  .section-lede{
-    font-size:clamp(15px,1.7vw,17px);
-    color:var(--text-muted);
-    max-width:560px;
-    margin-top:14px;
-  }
-
-  .section{ position:relative; padding:76px 0; border-top:1px solid var(--border-soft); }
-  @media (max-width:768px){ .section{ padding:54px 0; } }
-
-  .head-block{ margin-bottom:44px; }
-  .head-block.center{ text-align:center; margin-left:auto; margin-right:auto; }
-  .head-block.center .section-title{ margin:0 auto; }
-  .head-block.center .section-lede{ margin-left:auto; margin-right:auto; }
-  .head-block.center .label-tag{ justify-content:center; }
-
-  /* ===================== BUTTONS ===================== */
-  .btn{
-    display:inline-flex; align-items:center; justify-content:center; gap:10px;
-    font-family:var(--f-display); font-weight:800; font-size:14px; letter-spacing:.02em;
-    text-transform:uppercase; padding:17px 28px; border-radius:100px; border:1px solid transparent;
-    cursor:pointer;
-    transition:transform .25s var(--ease), box-shadow .25s var(--ease), background .25s var(--ease), border-color .25s var(--ease);
-    white-space:nowrap;
-  }
-  .btn-primary{ background:var(--cyan); color:var(--on-cyan); position:relative; overflow:hidden; isolation:isolate; }
-  .btn-primary::after{
-    content:''; position:absolute; top:0; left:-60%; width:35%; height:100%;
-    background:linear-gradient(115deg, transparent, rgba(255,255,255,.65), transparent);
-    transform:skewX(-18deg); pointer-events:none;
-    transition:left .65s var(--ease);
-  }
-  .btn-primary:hover::after{ left:130%; }
-  .btn-primary:hover{ transform:translateY(-2px); box-shadow:0 10px 30px -6px var(--cyan-glow); background:#1FE8D6; }
-  .btn-ghost{ background:transparent; border-color:var(--border); color:var(--text); }
-  .btn-ghost:hover{ border-color:var(--cyan); color:var(--cyan); }
-  .btn-block{ width:100%; }
-  .btn-sub{
-    display:block; text-align:center; font-size:12px; color:var(--text-faint);
-    margin-top:12px; letter-spacing:.02em;
-  }
-  /* ===================== WHATSAPP FLUTUANTE ===================== */
-  .whatsapp-float{
-    position:fixed; right:22px; bottom:100px; z-index:95;
-    width:56px; height:56px; border-radius:50%;
-    display:flex; align-items:center; justify-content:center;
-    background:#25D366; color:#04150D;
-    box-shadow:0 8px 24px -6px rgba(0,0,0,.35), 0 0 0 1px rgba(255,255,255,.08);
-    transition:transform .25s var(--ease), box-shadow .25s var(--ease), background .2s;
-  }
-  .whatsapp-float:hover{ transform:translateY(-2px) scale(1.05); box-shadow:0 12px 28px -6px rgba(37,211,102,.5); background:#2FE878; }
-  .whatsapp-float .wa-icon{ flex-shrink:0; }
-  @media (max-width:900px){
-    .whatsapp-float{ right:16px; bottom:16px; width:50px; height:50px; }
-    .sticky-cta.show + .whatsapp-float{ bottom:92px; }
-  }
-
-  /* ===================== WHATSAPP MEGA CTA ===================== */
-  .whatsapp-mega{
-    position:relative;
-    display:flex; flex-direction:column; align-items:center; justify-content:center;
-    text-align:center;
-    padding:24px 20px 8px;
-    perspective:1400px;
-  }
-  .whatsapp-mega__glow{
-    position:absolute; left:50%; top:36%; transform:translate(-50%,-50%);
-    width:min(640px,90vw); aspect-ratio:1;
-    background:radial-gradient(circle, rgba(37,211,102,.30) 0%, transparent 68%);
-    filter:blur(10px); pointer-events:none; z-index:0;
-    animation:waGlowPulse 4.2s ease-in-out infinite;
-  }
-  @keyframes waGlowPulse{ 0%,100%{ opacity:.55; } 50%{ opacity:1; } }
-
-  .whatsapp-mega__link{
-    position:relative; z-index:1;
-    display:flex; flex-direction:column; align-items:center;
-    text-decoration:none; -webkit-tap-highlight-color:transparent;
-  }
-
-  .whatsapp-mega__ring-wrap{
-    position:relative;
-    width:min(300px,58vw); aspect-ratio:1;
-    margin:0 auto 8px;
-    transform-style:preserve-3d;
-  }
-  .whatsapp-mega__ring{
-    position:absolute; inset:0; border-radius:50%;
-    border:2px solid rgba(37,211,102,.4);
-    animation:waRingPulse 2.6s var(--ease) infinite;
-  }
-  .whatsapp-mega__ring:nth-child(2){ animation-delay:.7s; }
-  .whatsapp-mega__ring:nth-child(3){ animation-delay:1.4s; }
-  @keyframes waRingPulse{
-    0%{ transform:scale(.62); opacity:.9; }
-    100%{ transform:scale(1.55); opacity:0; }
-  }
-
-  .whatsapp-mega__btn{
-    position:absolute; inset:14%;
-    border-radius:50%;
-    background:linear-gradient(145deg,#3CF08D,#1DA851 55%,#0C6B33);
-    box-shadow:
-      0 34px 60px -14px rgba(20,160,90,.6),
-      inset 0 -10px 18px rgba(0,0,0,.35),
-      inset 0 10px 16px rgba(255,255,255,.4);
-    display:flex; align-items:center; justify-content:center;
-    transform-style:preserve-3d;
-    animation:waFloat3d 4.6s ease-in-out infinite;
-    transition:transform .35s var(--ease), box-shadow .35s var(--ease);
-    will-change:transform;
-  }
-  @keyframes waFloat3d{
-    0%,100%{ transform:translateY(0) rotateX(10deg) rotateY(-10deg); }
-    50%{ transform:translateY(-18px) rotateX(-6deg) rotateY(10deg); }
-  }
-  .whatsapp-mega__link:hover .whatsapp-mega__btn{
-    animation-play-state:paused;
-    transform:translateY(-12px) rotateX(0deg) rotateY(0deg) scale(1.08);
-    box-shadow:0 40px 70px -12px rgba(20,160,90,.75), inset 0 -10px 18px rgba(0,0,0,.35), inset 0 10px 16px rgba(255,255,255,.45);
-  }
-  .whatsapp-mega__btn svg{ width:44%; height:44%; color:#fff; filter:drop-shadow(0 6px 12px rgba(0,0,0,.35)); }
-
-  .whatsapp-mega__bubble{
-    position:absolute; top:2%; right:-2%;
-    background:#fff; color:#0E1420; font-family:var(--f-display); font-weight:800; font-size:13.5px;
-    padding:10px 16px; border-radius:16px 16px 4px 16px; white-space:nowrap;
-    box-shadow:0 14px 28px -8px rgba(0,0,0,.4);
-    animation:waBubbleFloat 3.4s ease-in-out infinite;
-    z-index:2;
-  }
-  @keyframes waBubbleFloat{
-    0%,100%{ transform:translateY(0) rotate(-3deg); }
-    50%{ transform:translateY(-10px) rotate(3deg); }
-  }
-
-  .whatsapp-mega__cta-text{
-    margin-top:14px;
-    font-family:var(--f-display); font-weight:900; font-size:clamp(20px,3vw,28px);
-    color:var(--text);
-  }
-  .whatsapp-mega__cta-text .cyan{ color:#25D366; }
-  .whatsapp-mega__sub{
-    margin-top:8px; display:inline-flex; align-items:center; gap:8px;
-    font-size:13.5px; font-weight:600; color:var(--text-muted); letter-spacing:.02em;
-  }
-  .whatsapp-mega__sub::before{
-    content:''; width:8px; height:8px; border-radius:50%; background:#25D366;
-    box-shadow:0 0 0 0 rgba(37,211,102,.6);
-    animation:waDotPulse 1.8s ease-out infinite;
-  }
-  @keyframes waDotPulse{
-    0%{ box-shadow:0 0 0 0 rgba(37,211,102,.55); }
-    70%{ box-shadow:0 0 0 9px rgba(37,211,102,0); }
-    100%{ box-shadow:0 0 0 0 rgba(37,211,102,0); }
-  }
-
-  @media (max-width:640px){
-    .whatsapp-mega{ padding:12px 16px 4px; }
-    .whatsapp-mega__ring-wrap{ width:min(240px,64vw); }
-    .whatsapp-mega__bubble{ font-size:12px; padding:8px 13px; right:-4%; top:0; }
-  }
-  @media (prefers-reduced-motion: reduce){
-    .whatsapp-mega__btn, .whatsapp-mega__ring, .whatsapp-mega__bubble, .whatsapp-mega__glow, .whatsapp-mega__sub::before{ animation:none !important; }
-  }
+  .container{ width:100%; max-width:var(--maxw); margin:0 auto; padding:0 28px; }
 
   /* ===================== HEADER ===================== */
   .site-header{
     position:fixed; top:0; left:0; right:0; z-index:100;
-    background:var(--header-bg); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
+    background:rgba(10,13,20,.78);
+    backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
     border-bottom:1px solid var(--border-soft);
   }
-  .site-header .container{ display:flex; align-items:center; justify-content:space-between; height:72px; }
-  .brand{ display:flex; align-items:center; gap:11px; }
+  .site-header .container{ display:flex; align-items:center; justify-content:space-between; height:68px; }
+  .brand{ display:flex; align-items:center; gap:10px; }
   .brand-badge{
-    width:38px; height:38px; border-radius:50%;
-    background:var(--bg-alt);
-    overflow:hidden;
-    display:flex; align-items:center; justify-content:center;
-    box-shadow:0 0 0 1px rgba(255,255,255,.08), 0 0 18px -4px var(--cyan-glow);
-    flex-shrink:0;
+    width:32px; height:32px; border-radius:50%;
+    overflow:hidden; flex-shrink:0;
   }
-  .brand-badge img{ width:100%; height:100%; object-fit:cover; transform:scale(1.35); }
-  .brand-name{ font-family:var(--f-display); font-weight:800; font-size:15px; letter-spacing:.01em; line-height:1.1; }
+  .brand-badge img{ width:100%; height:100%; object-fit:cover; transform:scale(1.4); }
+  .brand-name{ font-family:var(--f-display); font-weight:700; font-size:16px; letter-spacing:-.005em; line-height:1; }
   .brand-name small{
-    display:block; font-weight:600; font-size:9.5px; color:var(--text-faint);
-    letter-spacing:.1em; text-transform:uppercase; margin-top:2px;
+    display:block; font-family:var(--f-body); font-weight:500; font-size:10.5px;
+    color:var(--text-muted); letter-spacing:.02em; margin-top:4px;
   }
-  .nav-links{ display:flex; align-items:center; gap:30px; }
+  .nav-links{ display:flex; align-items:center; gap:28px; }
   .nav-links a{ font-size:14px; color:var(--text-muted); font-weight:500; transition:color .2s; }
   .nav-links a:hover{ color:var(--text); }
-  .header-cta .btn{ padding:12px 20px; font-size:12px; }
-  .header-cta{ display:flex; align-items:center; gap:12px; }
-  .theme-toggle{
-    display:flex; align-items:center; justify-content:center;
-    width:38px; height:38px; border-radius:50%; flex-shrink:0;
-    background:var(--surface); border:1px solid var(--border-soft); color:var(--text-muted);
-    cursor:pointer; transition:border-color .2s, color .2s, transform .2s var(--ease);
-  }
-  .theme-toggle:hover{ color:var(--cyan); border-color:var(--cyan-dim); transform:translateY(-1px) rotate(8deg); }
-  .theme-toggle .icon-moon{ display:none; }
-  html[data-theme="light"] .theme-toggle .icon-sun{ display:none; }
-  html[data-theme="light"] .theme-toggle .icon-moon{ display:block; }
+  .header-cta{ display:flex; align-items:center; gap:10px; }
   @media (max-width:900px){ .nav-links{ display:none; } }
 
-  /* ===================== HERO ===================== */
-  .hero{ position:relative; padding:150px 0 88px; overflow:hidden; border-top:none; }
-  .hero::before{
-    content:''; position:absolute; top:-25%; left:50%; translate:-50% 0;
-    width:820px; height:820px;
-    background:radial-gradient(circle, var(--cyan-glow) 0%, transparent 62%);
-    opacity:.45; pointer-events:none;
-    animation:heroPulse 7s ease-in-out infinite;
+  /* ===================== BUTTONS ===================== */
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center; gap:8px;
+    font-family:var(--f-display); font-weight:600; font-size:14.5px; letter-spacing:-.005em;
+    padding:14px 22px; border-radius:var(--radius-m); border:1px solid transparent;
+    cursor:pointer; transition:transform .2s var(--ease), background .2s, color .2s, border-color .2s;
+    white-space:nowrap;
   }
-  @keyframes heroPulse{ 0%,100%{ opacity:.4; scale:1; } 50%{ opacity:.62; scale:1.08; } }
-  .hero-inner{ position:relative; z-index:1; max-width:800px; margin:0 auto; text-align:center; }
-  .hero-logo{ width:clamp(150px, 30vw, 250px); height:auto; margin:0 auto 22px; filter:drop-shadow(0 0 30px var(--cyan-glow)); animation:logoFloat 5.5s ease-in-out infinite; }
-  @keyframes logoFloat{ 0%,100%{ transform:translateY(0); } 50%{ transform:translateY(-9px); } }
-  .flag-chip{
-    display:inline-flex; align-items:center; gap:9px; font-size:12.5px; font-weight:600; letter-spacing:.03em;
-    color:var(--text-muted); background:var(--surface); border:1px solid var(--border);
-    padding:8px 16px; border-radius:100px; margin-bottom:24px;
+  .btn-primary{
+    background:var(--accent); color:var(--on-accent);
   }
-  .hero h1{ font-size:clamp(32px, 4.8vw, 54px); margin:0 auto; }
-  .hero h1 .cyan{ color:var(--cyan); }
-  .gg-highlight{
-    display:inline-flex; align-items:center; gap:6px;
-    background:linear-gradient(90deg, var(--cyan-soft), transparent);
-    border-bottom:2px solid var(--cyan);
-    padding:0 6px 1px;
+  .btn-primary:hover{ background:#FF6F3D; transform:translateY(-1px); }
+  .btn-ghost{
+    background:transparent; color:var(--text); border-color:var(--border);
   }
-  .hero-sub{ font-size:clamp(15.5px,1.8vw,18px); color:var(--text-muted); max-width:640px; margin:22px auto 0; }
-  .hero-ctas{ margin-top:34px; display:flex; flex-wrap:wrap; gap:14px; align-items:center; justify-content:center; }
+  .btn-ghost:hover{ border-color:var(--text); }
+  .btn-block{ width:100%; }
+  .btn .arrow{ transition:transform .2s; }
+  .btn:hover .arrow{ transform:translateX(3px); }
 
-  .hero-badges{ margin-top:40px; display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:center; }
-  .gbadge{
-    display:inline-flex; align-items:center; gap:8px;
-    font-size:13px; font-weight:700; color:var(--text);
-    background:var(--surface); border:1px solid var(--border-soft);
-    padding:9px 16px; border-radius:100px;
+  /* ===================== TYPE ===================== */
+  h1,h2,h3,h4{
+    font-family:var(--f-display);
+    font-weight:700;
+    line-height:1.05;
+    letter-spacing:-.025em;
+    margin:0;
+    color:var(--text);
   }
-  .gbadge.strong{ border-color:var(--cyan-dim); background:var(--cyan-soft); color:var(--cyan); }
-  .gbadge .dot{ width:6px; height:6px; border-radius:50%; background:currentColor; }
+  .display-1{ font-size:clamp(40px, 6vw, 76px); font-weight:700; letter-spacing:-.035em; }
+  .display-2{ font-size:clamp(30px, 4vw, 48px); font-weight:700; letter-spacing:-.03em; }
+  .display-3{ font-size:clamp(22px, 2.6vw, 30px); font-weight:600; letter-spacing:-.02em; }
+  .lede{ font-size:clamp(15.5px,1.7vw,17.5px); color:var(--text-muted); max-width:600px; margin-top:18px; line-height:1.55; }
+
+  .section{ position:relative; padding:88px 0; border-top:1px solid var(--border-soft); }
+  @media (max-width:768px){ .section{ padding:64px 0; } }
+  .section-tight{ padding:60px 0; }
+
+  .head-block{ display:flex; align-items:baseline; justify-content:space-between; gap:24px; flex-wrap:wrap; margin-bottom:48px; }
+  .head-block .kicker{
+    font-family:var(--f-body); font-size:12.5px; font-weight:500;
+    color:var(--text-muted); letter-spacing:.02em;
+    display:inline-flex; align-items:center; gap:10px;
+  }
+  .head-block .kicker::before{
+    content:''; width:16px; height:1px; background:var(--accent);
+  }
+  .head-block .kicker b{ color:var(--text); font-weight:600; }
+  .head-block h2{ margin-top:14px; max-width:760px; }
+
+  /* ===================== HERO ===================== */
+  .hero{ position:relative; padding:148px 0 96px; overflow:hidden; border-top:none; }
+  .hero-grid{
+    position:absolute; inset:0;
+    background-image:
+      linear-gradient(to right, rgba(239,234,224,.025) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(239,234,224,.025) 1px, transparent 1px);
+    background-size:64px 64px;
+    pointer-events:none;
+    mask-image:radial-gradient(ellipse 70% 60% at 50% 0%, #000 30%, transparent 90%);
+  }
+  .hero-glow{
+    position:absolute; top:-30%; left:50%; translate:-50% 0;
+    width:780px; height:780px;
+    background:radial-gradient(circle, rgba(255,90,31,.10) 0%, transparent 60%);
+    pointer-events:none;
+  }
+  .hero-inner{ position:relative; max-width:920px; margin:0 auto; }
+  .hero-locale{
+    display:inline-flex; align-items:center; gap:10px; font-size:13px; font-weight:500;
+    color:var(--text-muted); margin-bottom:28px;
+  }
+  .hero-locale .flags{ display:inline-flex; gap:6px; }
+  .hero-locale .flag{ width:18px; height:12px; border-radius:2px; overflow:hidden; display:inline-block; }
+  .hero-locale .flag-br{ background:linear-gradient(to bottom, var(--br-green) 50%, var(--br-yellow) 50%); }
+  .hero-locale .flag-us{
+    background:
+      linear-gradient(to bottom, transparent 23%, #fff 23% 27%, transparent 27% 41%, #fff 41% 45%, transparent 45% 59%, #fff 59% 63%, transparent 63% 77%, #fff 77% 81%, transparent 81%),
+      repeating-linear-gradient(to bottom, transparent 0 7px, #fff 0 8px),
+      var(--us-red);
+    background-size:auto, auto, 8px 8px;
+    background-position:0 0, 0 0, 0 0;
+    background-repeat:no-repeat, no-repeat, repeat;
+    position:relative;
+  }
+  .hero-locale .flag-us::before{
+    content:''; position:absolute; inset:0 60% 60% 0; background:#1B3A75;
+  }
+  .hero h1{ max-width:880px; }
+  .hero h1 .em{ font-style:normal; color:var(--accent); }
+  .hero h1 .under{ border-bottom:2px solid var(--accent); padding-bottom:2px; }
+  .hero-ctas{ margin-top:40px; display:flex; flex-wrap:wrap; gap:14px; align-items:center; }
+  .hero-meta{
+    margin-top:64px; display:flex; flex-wrap:wrap; gap:32px;
+    padding-top:32px; border-top:1px solid var(--border-soft);
+    color:var(--text-muted); font-size:13.5px;
+  }
+  .hero-meta-item{ display:flex; align-items:center; gap:10px; }
+  .hero-meta-item strong{ color:var(--text); font-weight:600; }
+  .hero-meta-item .dot{ width:6px; height:6px; border-radius:50%; background:var(--accent); }
+  .hero-logo{ display:none; }
 
   /* ===================== NICHE CHIPS ===================== */
-  .niche-row{ display:flex; flex-wrap:wrap; gap:10px; justify-content:flex-start; margin-top:8px; }
+  .niche-row{ display:flex; flex-wrap:wrap; gap:8px; margin-top:28px; }
   .niche-chip{
-    display:inline-flex; align-items:center; gap:8px; font-size:13.5px; font-weight:600; color:var(--text);
-    background:var(--surface); border:1px solid var(--border-soft);
-    padding:10px 16px; border-radius:100px; transition:border-color .2s, transform .2s;
+    display:inline-flex; align-items:center; gap:8px; font-size:13px; font-weight:500;
+    color:var(--text); background:transparent; border:1px solid var(--border);
+    padding:8px 14px; border-radius:100px;
+    transition:border-color .2s;
   }
-  .niche-chip:hover{ border-color:var(--cyan-dim); transform:translateY(-2px); }
+  .niche-chip:hover{ border-color:var(--accent-line); }
 
-  /* ===================== DIAGNÓSTICO (sintomas) ===================== */
+  /* ===================== DIAGNÓSTICO ===================== */
   .diagnostic{
-    margin-top:40px; background:var(--surface); border:1px solid var(--border);
-    border-radius:var(--radius-l); overflow:hidden; position:relative;
+    margin-top:8px; border:1px solid var(--border); border-radius:var(--radius-l); overflow:hidden;
+    background:var(--surface);
   }
-  .diagnostic-head{
-    display:flex; align-items:center; justify-content:space-between; gap:12px;
-    padding:18px 26px; border-bottom:1px solid var(--border-soft);
-    font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase; color:var(--text-faint);
+  .diag-head{
+    display:grid; grid-template-columns:1fr 36px 1fr;
+    padding:18px 28px; border-bottom:1px solid var(--border-soft);
+    font-size:11px; font-weight:600; letter-spacing:.06em; color:var(--text-muted); text-transform:uppercase;
   }
-  .diagnostic-head .live{ display:inline-flex; align-items:center; gap:7px; color:var(--us-red); }
-  .diagnostic-head .live::before{ content:''; width:6px; height:6px; border-radius:50%; background:var(--us-red); animation:blink 1.6s infinite; }
+  .diag-head .diag-arrow{ text-align:center; color:var(--text-faint); }
+  .diag-head .diag-fix-head{ text-align:right; color:var(--accent); }
   .diag-row{
-    display:grid; grid-template-columns:1fr 28px 1fr; align-items:center; gap:16px;
-    padding:16px 26px; border-bottom:1px solid var(--border-soft);
+    display:grid; grid-template-columns:1fr 36px 1fr; align-items:start;
+    gap:20px; padding:22px 28px; border-bottom:1px solid var(--border-soft);
   }
   .diag-row:last-child{ border-bottom:none; }
-  .diag-symptom{ font-size:14.5px; color:var(--text-muted); }
-  .diag-symptom b{ display:block; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--us-red); margin-bottom:4px; }
-  .diag-arrow{ color:var(--text-faint); text-align:center; }
-  .diag-fix{ font-size:14.5px; color:var(--text); font-weight:500; text-align:right; }
-  .diag-fix b{ display:block; font-size:10.5px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; color:var(--cyan); margin-bottom:4px; text-align:right; }
+  .diag-symptom{ font-size:15.5px; color:var(--text-muted); line-height:1.5; }
+  .diag-symptom b{ display:block; font-size:10.5px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--text-faint); margin-bottom:8px; }
+  .diag-arrow{ color:var(--text-faint); text-align:center; font-size:18px; line-height:1.4; }
+  .diag-fix{ font-size:15.5px; color:var(--text); font-weight:500; line-height:1.5; text-align:right; }
+  .diag-fix b{ display:block; font-size:10.5px; font-weight:600; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); margin-bottom:8px; text-align:right; }
   @media (max-width:640px){
-    .diag-row{ grid-template-columns:1fr; gap:6px; text-align:left; padding:16px 20px; }
-    .diag-fix{ text-align:left; } .diag-fix b{ text-align:left; }
-    .diag-arrow{ text-align:left; transform:rotate(90deg); width:16px; }
+    .diag-head{ display:none; }
+    .diag-row{ grid-template-columns:1fr; gap:12px; padding:20px 22px; }
+    .diag-arrow{ display:none; }
+    .diag-fix{ text-align:left; }
+    .diag-fix b{ text-align:left; }
+    .diag-symptom b{ color:var(--text-faint); }
   }
 
   .closing-line{
-    margin-top:36px; text-align:center; font-family:var(--f-display);
-    font-size:clamp(19px,2.4vw,25px); font-weight:700; color:var(--text-muted);
+    margin-top:48px; max-width:680px;
+    font-family:var(--f-display); font-weight:600;
+    font-size:clamp(20px, 2.4vw, 26px); line-height:1.35; color:var(--text-muted); letter-spacing:-.015em;
   }
-  .closing-line b{ color:var(--text); display:block; margin-top:6px; }
-  .closing-line .cyan{ color:var(--cyan); }
+  .closing-line .em{ color:var(--text); }
 
-  /* ===================== MODO EUGÊNCIA ===================== */
-  .eugencia-section{ position:relative; overflow:hidden; }
-  .eugencia-panel{
-    position:relative; background:linear-gradient(180deg, var(--surface), var(--bg-alt));
+  /* ===================== PAINEL STATUS ===================== */
+  .status-panel{
     border:1px solid var(--border); border-radius:var(--radius-l);
-    padding:0; overflow:hidden;
-    box-shadow:0 50px 100px -40px rgba(0,0,0,.7);
+    background:linear-gradient(180deg, var(--surface) 0%, var(--bg-2) 100%);
+    overflow:hidden; position:relative;
   }
-  .eugencia-panel::before{
-    content:''; position:absolute; top:-40%; right:-10%; width:600px; height:600px;
-    background:radial-gradient(circle, var(--cyan-glow), transparent 65%); opacity:.35; pointer-events:none;
+  .status-head{
+    display:flex; align-items:center; justify-content:space-between; gap:14px; flex-wrap:wrap;
+    padding:22px 28px; border-bottom:1px solid var(--border-soft);
   }
-  .eugencia-top{
-    position:relative; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:14px;
-    padding:24px 28px; border-bottom:1px solid var(--border-soft);
+  .status-head .label{
+    font-family:var(--f-display); font-weight:600; font-size:17px; letter-spacing:-.01em;
+    display:flex; align-items:center; gap:10px;
   }
-  .eugencia-title{ display:flex; align-items:center; gap:12px; font-family:var(--f-display); font-weight:800; font-size:18px; letter-spacing:.02em; min-width:0; flex:1 1 auto; }
-  .eugencia-title > .dot{ flex-shrink:0; width:9px; height:9px; border-radius:50%; background:var(--cyan); box-shadow:0 0 12px 3px var(--cyan-glow); animation:blink 1.8s infinite; }
-  .eugencia-title > span:not(.dot),
-  .eugencia-title{ white-space:normal; word-break:break-word; }
-  .eugencia-top .status-pill{ flex-shrink:0; }
+  .status-head .label::before{
+    content:''; width:8px; height:8px; border-radius:50%; background:var(--green);
+    box-shadow:0 0 0 4px rgba(22,164,125,.18);
+    animation:livePulse 2.2s var(--ease) infinite;
+  }
   .status-pill{
-    display:inline-flex; align-items:center; gap:8px; font-size:12px; font-weight:700; letter-spacing:.08em; text-transform:uppercase;
-    color:var(--on-cyan); background:var(--cyan); padding:9px 18px; border-radius:100px;
+    display:inline-flex; align-items:center; gap:6px; font-size:11.5px; font-weight:600;
+    color:var(--on-accent); background:var(--accent); padding:6px 12px; border-radius:100px;
   }
-  .eugencia-grid{ position:relative; display:grid; grid-template-columns:repeat(2,1fr); }
-  @media (max-width:880px){ .eugencia-grid{ grid-template-columns:1fr; } }
-  .eugencia-row{
+  @keyframes livePulse{ 0%,100%{ box-shadow:0 0 0 4px rgba(22,164,125,.18); } 50%{ box-shadow:0 0 0 9px rgba(22,164,125,0); } }
+  .status-grid{ display:grid; grid-template-columns:repeat(2,1fr); }
+  @media (max-width:880px){ .status-grid{ grid-template-columns:1fr; } }
+  .status-row{
     display:flex; align-items:center; justify-content:space-between; gap:16px;
-    padding:20px 28px; border-bottom:1px solid var(--border-soft);
+    padding:22px 28px; border-bottom:1px solid var(--border-soft);
   }
-  .eugencia-grid .eugencia-row:nth-child(odd){ border-right:1px solid var(--border-soft); }
-  @media (max-width:880px){ .eugencia-grid .eugencia-row:nth-child(odd){ border-right:none; } }
-  /* Em 2 colunas, garante que cada par (linha 1+2, 3+4) esteja alinhado: borda inferior só nos últimos de cada coluna */
-  .eugencia-grid .eugencia-row:nth-child(2){ border-bottom:none; }
+  .status-grid .status-row:nth-child(odd){ border-right:1px solid var(--border-soft); }
+  .status-grid .status-row:nth-child(2){ border-bottom:none; }
   @media (max-width:880px){
-    .eugencia-grid .eugencia-row:nth-child(2){ border-bottom:1px solid var(--border-soft); }
+    .status-grid .status-row:nth-child(odd){ border-right:none; }
+    .status-grid .status-row:nth-child(2){ border-bottom:1px solid var(--border-soft); }
   }
-  .eugencia-row .label{ min-width:0; flex:1 1 auto; }
-  .eugencia-row .label b{ display:block; font-family:var(--f-display); font-weight:700; font-size:15.5px; color:var(--text); margin-bottom:3px; }
-  .eugencia-row .label span{ font-size:12.5px; color:var(--text-faint); }
-  .switch{ width:44px; height:25px; border-radius:100px; background:var(--border); position:relative; flex-shrink:0; transition:background .3s var(--ease); }
-  .switch::after{ content:''; position:absolute; top:3px; left:3px; width:19px; height:19px; border-radius:50%; background:var(--text-faint); transition:transform .3s var(--ease), background .3s var(--ease); }
-  .switch.on{ background:var(--cyan-dim); }
-  .switch.on::after{ transform:translateX(19px); background:var(--cyan); box-shadow:0 0 10px 1px var(--cyan-glow); }
-  .eugencia-foot{
-    position:relative; text-align:center; padding:20px 28px; font-size:13px; color:var(--text-muted);
-  }
-  .eugencia-foot b{ color:var(--cyan); }
-  @keyframes blink{ 0%,100%{opacity:1;} 50%{opacity:.25;} }
+  .status-row .text b{ display:block; font-family:var(--f-display); font-weight:600; font-size:16px; color:var(--text); margin-bottom:3px; letter-spacing:-.01em; }
+  .status-row .text span{ font-size:13px; color:var(--text-muted); }
+  .status-row.dim .text b{ color:var(--text-muted); }
+  .switch{ width:42px; height:24px; border-radius:100px; background:var(--border); position:relative; flex-shrink:0; }
+  .switch::after{ content:''; position:absolute; top:3px; left:3px; width:18px; height:18px; border-radius:50%; background:var(--text-faint); transition:transform .25s var(--ease), background .25s; }
+  .switch.on{ background:var(--accent-line); }
+  .switch.on::after{ transform:translateX(18px); background:var(--accent); }
+  .status-foot{ padding:20px 28px; font-size:14px; color:var(--text-muted); border-top:1px solid var(--border-soft); }
+  .status-foot b{ color:var(--text); font-weight:600; }
 
-  /* ===================== AJUSTE FINO DO PAINEL EUGÊNCIA NO MOBILE ===================== */
+  /* ===================== SERVIÇOS ===================== */
+  .services-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:0; border:1px solid var(--border); border-radius:var(--radius-l); overflow:hidden; background:var(--surface); }
+  @media (max-width:880px){ .services-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:560px){ .services-grid{ grid-template-columns:1fr; } }
+  .service{
+    padding:28px; border-right:1px solid var(--border-soft); border-bottom:1px solid var(--border-soft);
+    display:flex; flex-direction:column; gap:10px; min-height:200px;
+    transition:background .2s;
+  }
+  .service:hover{ background:var(--surface-2); }
+  .service:nth-child(3n){ border-right:none; }
+  .service:nth-last-child(-n+3){ border-bottom:none; }
+  @media (max-width:880px){
+    .service{ border-right:1px solid var(--border-soft); border-bottom:1px solid var(--border-soft); }
+    .service:nth-child(3n){ border-right:1px solid var(--border-soft); }
+    .service:nth-child(2n){ border-right:none; }
+    .service:nth-last-child(-n+3){ border-bottom:1px solid var(--border-soft); }
+    .service:nth-last-child(-n+2){ border-bottom:none; }
+  }
   @media (max-width:560px){
-    .eugencia-top{ padding:18px 18px; gap:10px; }
-    .eugencia-title{ font-size:15.5px; gap:10px; }
-    .status-pill{ font-size:10.5px; padding:7px 13px; letter-spacing:.06em; }
-    .eugencia-row{ padding:16px 18px; gap:14px; }
-    .eugencia-row .label b{ font-size:14.5px; }
-    .eugencia-row .label span{ font-size:11.5px; }
-    .switch{ width:40px; height:22px; }
-    .switch::after{ width:16px; height:16px; top:3px; left:3px; }
-    .switch.on::after{ transform:translateX(18px); }
-    .eugencia-foot{ padding:16px 18px; font-size:12px; }
+    .service{ border-right:none !important; border-bottom:1px solid var(--border-soft) !important; }
+    .service:last-child{ border-bottom:none !important; }
   }
+  .service-icon{
+    width:38px; height:38px; border-radius:var(--radius-s); color:var(--accent);
+    display:flex; align-items:center; justify-content:center;
+    border:1px solid var(--accent-line);
+  }
+  .service-icon svg{ width:20px; height:20px; }
+  .service h4{ font-size:17px; font-weight:600; letter-spacing:-.01em; }
+  .service p{ font-size:14px; color:var(--text-muted); line-height:1.55; margin:0; }
+  .service .tag{ font-size:11.5px; font-weight:600; color:var(--text-muted); margin-top:auto; padding-top:8px; }
 
-  /* ===================== SERVIÇOS (cards) ===================== */
-  .pillars-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
-  @media (max-width:860px){ .pillars-grid{ grid-template-columns:repeat(2,1fr);} }
-  @media (max-width:560px){ .pillars-grid{ grid-template-columns:1fr;} }
-  .pillar-card{
-    background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-m);
-    padding:24px; transition:transform .25s var(--ease), border-color .25s var(--ease), background .25s var(--ease);
+  /* ===================== TIMELINE / PROCESSO ===================== */
+  .timeline{ position:relative; margin-top:8px; }
+  .timeline::before{
+    content:''; position:absolute; left:22px; top:24px; bottom:24px; width:1px;
+    background:linear-gradient(to bottom, var(--accent-line), transparent);
   }
-  .pillar-card:hover{ transform:translateY(-4px); border-color:var(--cyan-dim); background:var(--surface-2); }
-  .pillar-num{ font-family:var(--f-display); font-weight:800; font-size:12px; color:var(--cyan); letter-spacing:.08em; margin-bottom:12px; display:block; }
-  .pillar-card h4{ font-size:16.5px; font-weight:700; margin-bottom:8px; }
-  .pillar-card p{ font-size:13.5px; color:var(--text-muted); margin:0; line-height:1.55; }
-  .pillar-icon{
-    display:inline-flex; align-items:center; justify-content:center;
-    width:42px; height:42px; border-radius:12px;
-    background:var(--cyan-soft); border:1px solid var(--cyan-dim); color:var(--cyan);
-    margin-bottom:14px;
+  .step{ position:relative; padding:20px 0 20px 64px; }
+  .step::before{
+    content:attr(data-num); position:absolute; left:0; top:20px;
+    width:46px; height:46px; border-radius:50%;
+    background:var(--bg); border:1px solid var(--accent-line);
+    color:var(--accent); font-family:var(--f-display); font-weight:700; font-size:15px;
+    display:flex; align-items:center; justify-content:center;
   }
-  .pillar-icon svg{ width:22px; height:22px; }
-
-  /* ===================== PROCESSO ===================== */
-  .process-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:8px; }
-  @media (max-width:900px){ .process-grid{ grid-template-columns:repeat(2,1fr); } }
-  @media (max-width:480px){ .process-grid{ grid-template-columns:1fr; } }
-  .process-step{
-    background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-m);
-    padding:22px 20px; position:relative;
+  .step h4{ font-size:18px; font-weight:600; margin-bottom:6px; letter-spacing:-.01em; }
+  .step p{ color:var(--text-muted); font-size:14.5px; line-height:1.55; margin:0; max-width:560px; }
+  @media (max-width:640px){
+    .timeline::before{ left:20px; }
+    .step{ padding-left:54px; }
+    .step::before{ width:42px; height:42px; font-size:14px; }
   }
-  .process-step__num{
-    font-family:var(--f-display); font-weight:900; font-size:28px; color:var(--cyan);
-    line-height:1; margin-bottom:8px; display:block;
-  }
-  .process-step h4{ font-size:15px; font-weight:700; margin-bottom:6px; }
-  .process-step p{ font-size:13px; color:var(--text-muted); margin:0; line-height:1.55; }
-
-  /* ===================== QUEM ESTÁ POR TRÁS ===================== */
-  .mentor{ display:grid; grid-template-columns:.65fr 1.35fr; gap:48px; align-items:center; }
-  @media (max-width:860px){ .mentor{ grid-template-columns:1fr; } }
-  .mentor-photo{
-    aspect-ratio:4/5; border-radius:var(--radius-l); background:var(--surface); border:1px solid var(--border);
-    display:flex; align-items:center; justify-content:center; flex-direction:column; gap:10px;
-    color:var(--text-faint); font-size:12px; text-align:center; padding:20px;
-  }
-  .mentor-photo .brand-badge{ width:110px; height:110px; }
-  .mentor-photo .brand-badge span{ width:88px; height:88px; }
-  .mentor-photo .brand-badge svg{ width:46px; height:46px; }
-  .mentor-info .placeholder-name{ font-family:var(--f-display); font-size:clamp(22px,2.8vw,30px); font-weight:800; color:var(--text); display:block; }
-  .mentor-info .project-name{ color:var(--cyan); font-weight:700; font-size:14px; margin-top:4px; display:block; }
-  .specialty-tags{ display:flex; flex-wrap:wrap; gap:8px; margin:20px 0 22px; }
-  .specialty-tags span{ font-size:12px; font-weight:600; color:var(--text-muted); background:var(--bg-alt); border:1px solid var(--border-soft); padding:7px 13px; border-radius:100px; }
-  .mentor-field{ margin-top:16px; }
-  .mentor-field .f-label{ font-size:11px; font-weight:700; color:var(--cyan); letter-spacing:.1em; text-transform:uppercase; margin-bottom:8px; display:block; }
-  .mentor-field p{ color:var(--text-muted); border-left:2px solid var(--cyan-dim); padding:2px 0 2px 16px; font-size:14.5px; margin:0; }
 
   /* ===================== DEPOIMENTOS ===================== */
-  .demo-banner{
-    display:flex; align-items:center; gap:10px; justify-content:center; text-align:center;
-    background:var(--surface-2); border:1px solid var(--border); border-radius:100px;
-    padding:10px 20px; margin:0 auto 32px; max-width:fit-content; font-size:12px; font-weight:600; color:var(--text-faint);
+  .testi-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:0; border:1px solid var(--border); border-radius:var(--radius-l); overflow:hidden; background:var(--surface); }
+  @media (max-width:880px){ .testi-grid{ grid-template-columns:1fr; } }
+  .testi{
+    padding:32px 28px; display:flex; flex-direction:column; gap:24px; min-height:260px;
+    border-right:1px solid var(--border-soft);
   }
-  .demo-banner b{ color:var(--us-red); }
-  .testi-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:18px; }
-  @media (max-width:860px){ .testi-grid{ grid-template-columns:1fr; } }
-  .testi-card{ background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-m); padding:26px; display:flex; flex-direction:column; justify-content:space-between; min-height:190px; }
-  .testi-card .quote-mark{ font-family:var(--f-display); font-size:34px; color:var(--cyan-dim); line-height:1; margin-bottom:8px; }
-  .testi-card p{ color:var(--text-muted); font-size:14.5px; line-height:1.65; }
-  .testi-foot{ display:flex; align-items:center; gap:10px; margin-top:18px; }
-  .testi-avatar{ width:34px; height:34px; border-radius:50%; background:var(--bg-alt); border:1px solid var(--border-soft); overflow:hidden; flex-shrink:0; }
+  .testi:last-child{ border-right:none; }
+  @media (max-width:880px){
+    .testi{ border-right:none; border-bottom:1px solid var(--border-soft); }
+    .testi:last-child{ border-bottom:none; }
+  }
+  .testi-quote{ font-size:16px; color:var(--text); line-height:1.55; letter-spacing:-.01em; font-family:var(--f-display); font-weight:500; }
+  .testi-meta{ display:flex; align-items:center; gap:14px; margin-top:auto; padding-top:20px; border-top:1px solid var(--border-soft); }
+  .testi-avatar{ width:48px; height:48px; border-radius:50%; background:var(--bg-2); border:1px solid var(--border-soft); overflow:hidden; flex-shrink:0; }
   .testi-avatar img{ width:100%; height:100%; object-fit:cover; display:block; }
-  .testi-foot span{ font-size:12.5px; color:var(--text-faint); font-weight:600; }
+  .testi-name{ font-size:14px; font-weight:600; color:var(--text); }
+  .testi-role{ font-size:12.5px; color:var(--text-muted); margin-top:2px; }
 
   /* ===================== OFERTA ===================== */
-  .offer-wrap{ display:flex; justify-content:center; }
-  .offer-card{
-    max-width:600px; width:100%;
-    background:linear-gradient(180deg, var(--surface), var(--surface-2));
-    border:1px solid var(--cyan-dim); border-radius:var(--radius-l);
-    padding:44px 40px; position:relative; box-shadow:0 40px 90px -30px var(--cyan-glow);
+  .offer{
+    display:grid; grid-template-columns:1.2fr 1fr; gap:0;
+    border:1px solid var(--border); border-radius:var(--radius-l); overflow:hidden;
+    background:var(--surface);
   }
-  @media (max-width:600px){ .offer-card{ padding:34px 22px; } }
-  .offer-card::before{
-    content:'SERVIÇO COMPLETO'; position:absolute; top:-13px; left:50%; translate:-50% 0;
-    background:var(--cyan); color:var(--on-cyan); font-size:11px; font-weight:700; letter-spacing:.08em;
-    padding:6px 16px; border-radius:100px;
+  @media (max-width:880px){ .offer{ grid-template-columns:1fr; } }
+  .offer-side{
+    padding:48px 44px; background:linear-gradient(160deg, var(--surface) 0%, var(--bg-2) 100%);
+    border-right:1px solid var(--border); position:relative;
   }
-  .offer-title{ text-align:center; font-size:clamp(22px,2.8vw,28px); margin-bottom:6px; }
-  .offer-tagline{ text-align:center; color:var(--text-muted); font-size:14px; margin-bottom:28px; }
-  .offer-price{ text-align:center; padding:6px 0 26px; }
-  .offer-price .p-old{ font-size:16px; color:var(--text-faint); text-decoration:line-through; text-decoration-color:var(--us-red); }
-  .offer-price .p-value{ font-family:var(--f-display); font-size:52px; font-weight:900; color:var(--cyan); line-height:1; margin-top:4px; }
-  .offer-price .p-note{ font-size:12px; color:var(--text-faint); margin-top:6px; }
-  .offer-grid{ display:grid; grid-template-columns:1fr 1fr; gap:10px; margin-bottom:30px; }
-  @media (max-width:480px){ .offer-grid{ grid-template-columns:1fr; } }
-  .offer-grid li{
-    display:flex; align-items:center; gap:10px; padding:12px 14px;
-    background:var(--bg-alt); border:1px solid var(--border-soft); border-radius:var(--radius-s);
-    font-size:13.5px; color:var(--text); font-weight:500;
+  @media (max-width:880px){ .offer-side{ border-right:none; border-bottom:1px solid var(--border); } }
+  .offer-side .lead{
+    font-family:var(--f-display); font-weight:700; font-size:clamp(28px, 3.4vw, 38px);
+    line-height:1.1; letter-spacing:-.025em;
   }
-  .offer-grid svg{ color:var(--cyan); flex-shrink:0; }
+  .offer-side .sub{ margin-top:14px; color:var(--text-muted); font-size:15.5px; max-width:420px; line-height:1.55; }
+  .offer-side .included{ margin-top:28px; display:grid; grid-template-columns:1fr 1fr; gap:10px 18px; }
+  @media (max-width:560px){ .offer-side .included{ grid-template-columns:1fr; } }
+  .offer-side .included li{ font-size:13.5px; color:var(--text); display:flex; align-items:center; gap:10px; }
+  .offer-side .included li svg{ color:var(--accent); flex-shrink:0; }
+  .offer-side .meta{ margin-top:28px; padding-top:20px; border-top:1px solid var(--border-soft); font-size:13px; color:var(--text-muted); }
+  .offer-side .meta b{ color:var(--text); font-weight:600; }
+  .offer-price{
+    padding:48px 44px; display:flex; flex-direction:column; justify-content:center; gap:18px;
+    border-left:6px solid var(--accent);
+    background:var(--bg-2);
+  }
+  @media (max-width:880px){ .offer-price{ border-left:none; border-top:6px solid var(--accent); } }
+  .price-label{ font-size:13px; color:var(--text-muted); font-weight:500; }
+  .price-value{ font-family:var(--f-display); font-weight:700; font-size:clamp(48px, 6vw, 72px); color:var(--text); line-height:1; letter-spacing:-.04em; }
+  .price-value small{ font-size:.5em; color:var(--text-muted); font-weight:500; margin-left:6px; }
+  .price-note{ font-size:13.5px; color:var(--text-muted); line-height:1.5; }
+  .price-note b{ color:var(--text); font-weight:600; }
+  .price-cta{ margin-top:10px; }
+  .price-fine{ font-size:11.5px; color:var(--text-faint); margin-top:6px; }
+
+  /* ===================== WHATSAPP MEGA CTA ===================== */
+  .wa-mega{
+    position:relative; display:flex; flex-direction:column; align-items:center; text-align:center;
+    padding:48px 24px 8px; perspective:1400px;
+  }
+  .wa-mega__glow{
+    position:absolute; left:50%; top:34%; transform:translate(-50%,-50%);
+    width:min(640px,90vw); aspect-ratio:1;
+    background:radial-gradient(circle, rgba(37,211,102,.22) 0%, transparent 65%);
+    pointer-events:none; z-index:0;
+    animation:waGlowPulse 4.5s var(--ease) infinite;
+  }
+  @keyframes waGlowPulse{ 0%,100%{ opacity:.55; } 50%{ opacity:1; } }
+  .wa-mega__link{
+    position:relative; z-index:1;
+    display:flex; flex-direction:column; align-items:center;
+    text-decoration:none; -webkit-tap-highlight-color:transparent;
+  }
+  .wa-mega__ring-wrap{
+    position:relative; width:min(260px,52vw); aspect-ratio:1; margin:0 auto;
+    transform-style:preserve-3d;
+  }
+  .wa-mega__ring{
+    position:absolute; inset:0; border-radius:50%;
+    border:2px solid rgba(37,211,102,.35);
+    animation:waRingPulse 2.8s var(--ease) infinite;
+  }
+  .wa-mega__ring:nth-child(2){ animation-delay:.9s; }
+  .wa-mega__ring:nth-child(3){ animation-delay:1.8s; }
+  @keyframes waRingPulse{
+    0%{ transform:scale(.62); opacity:.9; }
+    100%{ transform:scale(1.55); opacity:0; }
+  }
+  .wa-mega__btn{
+    position:absolute; inset:14%; border-radius:50%;
+    background:linear-gradient(145deg,#3CF08D,#1DA851 55%,#0C6B33);
+    box-shadow:
+      0 30px 50px -14px rgba(20,160,90,.55),
+      inset 0 -10px 18px rgba(0,0,0,.35),
+      inset 0 10px 16px rgba(255,255,255,.4);
+    display:flex; align-items:center; justify-content:center;
+    animation:waFloat3d 4.8s ease-in-out infinite;
+    transition:transform .35s var(--ease);
+    will-change:transform;
+  }
+  @keyframes waFloat3d{
+    0%,100%{ transform:translateY(0) rotateX(8deg) rotateY(-8deg); }
+    50%{ transform:translateY(-16px) rotateX(-6deg) rotateY(8deg); }
+  }
+  .wa-mega__link:hover .wa-mega__btn{
+    animation-play-state:paused;
+    transform:translateY(-12px) scale(1.06);
+  }
+  .wa-mega__btn svg{ width:44%; height:44%; color:#fff; filter:drop-shadow(0 6px 12px rgba(0,0,0,.35)); }
+  .wa-mega__bubble{
+    position:absolute; top:2%; right:-4%;
+    background:var(--text); color:var(--bg); font-family:var(--f-display); font-weight:600; font-size:13px;
+    padding:9px 14px; border-radius:14px 14px 4px 14px; white-space:nowrap;
+    box-shadow:0 12px 24px -8px rgba(0,0,0,.4);
+    animation:waBubbleFloat 3.4s ease-in-out infinite;
+  }
+  @keyframes waBubbleFloat{
+    0%,100%{ transform:translateY(0) rotate(-3deg); }
+    50%{ transform:translateY(-8px) rotate(3deg); }
+  }
+  .wa-mega__title{
+    margin-top:18px; font-family:var(--f-display); font-weight:700; font-size:clamp(22px,3vw,30px);
+    letter-spacing:-.02em;
+  }
+  .wa-mega__title .em{ color:var(--wa); }
+  .wa-mega__sub{ margin-top:8px; display:inline-flex; align-items:center; gap:8px; font-size:14px; color:var(--text-muted); }
+  .wa-mega__sub::before{
+    content:''; width:7px; height:7px; border-radius:50%; background:var(--wa);
+  }
+
+  @media (max-width:640px){
+    .wa-mega__ring-wrap{ width:min(220px,62vw); }
+    .wa-mega__bubble{ font-size:11.5px; padding:7px 12px; right:-2%; top:0; }
+  }
+  @media (prefers-reduced-motion: reduce){
+    .wa-mega__btn, .wa-mega__ring, .wa-mega__bubble, .wa-mega__glow{ animation:none !important; }
+  }
+
+  /* ===================== WHATSAPP FLUTUANTE ===================== */
+  .wa-float{
+    position:fixed; right:22px; bottom:88px; z-index:95;
+    width:54px; height:54px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    background:#25D366; color:#04150D;
+    box-shadow:0 10px 24px -6px rgba(0,0,0,.35), 0 0 0 1px rgba(255,255,255,.08);
+    transition:transform .2s var(--ease);
+  }
+  .wa-float:hover{ transform:translateY(-2px) scale(1.04); }
+  @media (max-width:900px){
+    .wa-float{ right:14px; bottom:14px; width:50px; height:50px; }
+    .sticky-cta.show ~ .wa-float{ bottom:84px; }
+  }
 
   /* ===================== FAQ ===================== */
-  .faq-list{ max-width:760px; margin:0 auto; display:flex; flex-direction:column; gap:10px; }
-  .faq-item{ background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-m); overflow:hidden; }
+  .faq-list{ max-width:820px; margin:0 auto; display:flex; flex-direction:column; gap:0; border-top:1px solid var(--border-soft); }
+  .faq-item{ border-bottom:1px solid var(--border-soft); }
   .faq-item summary{
-    cursor:pointer; list-style:none; padding:19px 24px; display:flex; align-items:center; justify-content:space-between;
-    gap:16px; font-weight:600; font-size:15px; -webkit-tap-highlight-color:transparent;
+    cursor:pointer; list-style:none; padding:24px 0;
+    display:flex; align-items:center; justify-content:space-between; gap:24px;
+    font-family:var(--f-display); font-weight:600; font-size:clamp(17px, 1.8vw, 20px);
+    letter-spacing:-.015em; color:var(--text); -webkit-tap-highlight-color:transparent;
   }
   .faq-item summary::-webkit-details-marker{ display:none; }
-  .faq-item summary .plus{
-    flex-shrink:0; width:20px; height:20px; border-radius:50%; border:1px solid var(--border);
-    display:flex; align-items:center; justify-content:center; position:relative; transition:transform .25s var(--ease), border-color .25s;
+  .faq-item summary .toggle{
+    flex-shrink:0; width:32px; height:32px; border-radius:50%; border:1px solid var(--border);
+    display:flex; align-items:center; justify-content:center;
+    color:var(--text-muted); transition:transform .25s var(--ease), color .2s, border-color .2s;
   }
-  .faq-item summary .plus::before, .faq-item summary .plus::after{ content:''; position:absolute; background:var(--text-muted); }
-  .faq-item summary .plus::before{ width:8px; height:1.5px; }
-  .faq-item summary .plus::after{ width:1.5px; height:8px; }
-  .faq-item[open] summary .plus{ transform:rotate(45deg); border-color:var(--cyan); }
-  .faq-item .faq-a{ padding:0 24px 22px; color:var(--text-muted); font-size:14px; line-height:1.7; max-width:640px; }
+  .faq-item summary .toggle::before{ content:'+'; font-size:18px; line-height:1; }
+  .faq-item[open] summary .toggle{ transform:rotate(45deg); color:var(--accent); border-color:var(--accent-line); }
+  .faq-item .faq-a{
+    padding:0 0 24px; color:var(--text-muted); font-size:15px; line-height:1.65;
+    max-width:700px;
+  }
 
-  .faq-cta{ text-align:center; margin-top:56px; padding-top:48px; border-top:1px solid var(--border-soft); }
-  .faq-cta h3{ font-size:clamp(24px,3.6vw,34px); max-width:720px; margin:0 auto; }
-  .faq-cta h3 .cyan{ color:var(--cyan); }
-  .faq-cta p{ color:var(--text-muted); font-size:15.5px; margin:16px auto 30px; max-width:520px; }
+  /* ===================== CTA FINAL ===================== */
+  .final-cta{
+    margin-top:80px; padding:64px 48px; text-align:center;
+    border:1px solid var(--border); border-radius:var(--radius-l);
+    background:linear-gradient(180deg, var(--surface) 0%, var(--bg-2) 100%);
+  }
+  .final-cta h3{
+    font-size:clamp(28px, 3.6vw, 40px); max-width:720px; margin:0 auto;
+    letter-spacing:-.025em; line-height:1.15;
+  }
+  .final-cta p{ color:var(--text-muted); font-size:16px; margin:20px auto 32px; max-width:520px; }
 
   /* ===================== FOOTER ===================== */
-  .site-footer{ border-top:1px solid var(--border-soft); padding:40px 0 100px; }
+  .site-footer{ border-top:1px solid var(--border-soft); padding:48px 0 80px; }
   .footer-top{ display:flex; justify-content:space-between; align-items:center; gap:24px; flex-wrap:wrap; padding-bottom:24px; margin-bottom:20px; border-bottom:1px solid var(--border-soft); }
-  .footer-links{ display:flex; gap:24px; flex-wrap:wrap; align-items:center; }
-  .footer-links a{ font-size:13px; color:var(--text-muted); }
-  .footer-links a:hover{ color:var(--cyan); }
+  .footer-links{ display:flex; gap:24px; flex-wrap:wrap; }
+  .footer-links a{ font-size:13px; color:var(--text-muted); transition:color .2s; }
+  .footer-links a:hover{ color:var(--text); }
   .footer-contact{ display:flex; gap:18px; flex-wrap:wrap; font-size:13px; color:var(--text-muted); }
-  .footer-contact a:hover{ color:var(--cyan); }
+  .footer-contact a:hover{ color:var(--text); }
   .footer-bottom{ display:flex; justify-content:space-between; flex-wrap:wrap; gap:10px; font-size:12px; color:var(--text-faint); }
 
-  /* ===================== STICKY MOBILE CTA ===================== */
+  /* ===================== STICKY MOBILE ===================== */
   .sticky-cta{
     position:fixed; left:0; right:0; bottom:0; z-index:90;
-    background:var(--sticky-bg); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
+    background:rgba(10,13,20,.92); backdrop-filter:blur(14px); -webkit-backdrop-filter:blur(14px);
     border-top:1px solid var(--border); padding:12px 16px calc(12px + env(safe-area-inset-bottom));
     transform:translateY(100%); transition:transform .35s var(--ease); display:none;
   }
@@ -714,67 +589,33 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   @media (max-width:900px){ .sticky-cta{ display:block; } }
 
   /* ===================== SCROLL REVEAL ===================== */
-  .reveal{ opacity:0; transform:translateY(20px); transition:opacity .7s var(--ease), transform .7s var(--ease); }
+  .reveal{ opacity:0; transform:translateY(16px); transition:opacity .7s var(--ease), transform .7s var(--ease); }
   .reveal.in{ opacity:1; transform:translateY(0); }
 
-  /* ===================== CURSOR ANIMADO (desktop) ===================== */
-  @media (pointer:fine){
-    body.cursor-ready, body.cursor-ready a, body.cursor-ready button, body.cursor-ready summary{ cursor:none; }
-    .cursor-glow{
-      position:fixed; top:0; left:0; z-index:9997; pointer-events:none;
-      width:280px; height:280px; border-radius:50%; transform:translate(-50%,-50%);
-      background:radial-gradient(circle, var(--cyan-glow) 0%, transparent 68%);
-      opacity:0; filter:blur(2px);
-      transition:opacity .35s var(--ease), width .5s var(--ease), height .5s var(--ease);
-    }
-    body.cursor-ready .cursor-glow{ opacity:.28; }
-    .cursor-glow.text-hover{ opacity:.6; width:420px; height:420px; }
-    .cursor-dot, .cursor-ring{
-      position:fixed; top:0; left:0; z-index:9999; pointer-events:none;
-      border-radius:50%; transform:translate(-50%,-50%); opacity:0;
-      transition:opacity .25s var(--ease), width .2s var(--ease), height .2s var(--ease), border-color .2s var(--ease), background .2s var(--ease), box-shadow .3s var(--ease);
-    }
-    body.cursor-ready .cursor-dot, body.cursor-ready .cursor-ring{ opacity:1; }
-    .cursor-dot{ width:7px; height:7px; background:var(--cyan); box-shadow:0 0 12px 2px var(--cyan-glow); }
-    .cursor-dot.text-hover{ width:9px; height:9px; box-shadow:0 0 26px 8px var(--cyan-glow); }
-    .cursor-ring{ width:32px; height:32px; border:1.5px solid var(--cyan-dim); }
-    .cursor-ring.hover{ width:52px; height:52px; border-color:var(--cyan); background:var(--cyan-soft); }
-    .cursor-ring.text-hover{ width:14px; height:14px; border-color:var(--cyan); background:var(--cyan-soft); }
-  }
-
-  /* ===================== AJUSTE FINO MOBILE ===================== */
+  /* ===================== MOBILE FINE ===================== */
   @media (max-width:480px){
-    .container{ padding:0 18px; }
-    .hero{ padding:112px 0 56px; }
-    .hero-logo{ width:130px; margin-bottom:14px; }
-    .flag-chip{ font-size:11px; padding:7px 13px; text-align:center; }
-    .brand-name small{ display:none; }
-    .brand-name{ font-size:13px; }
-    .header-cta{ gap:8px; }
-    .header-cta .btn{ padding:10px 14px; font-size:10.5px; }
-    .theme-toggle{ width:34px; height:34px; }
-    .btn{ font-size:12.5px; padding:15px 20px; white-space:normal; text-align:center; }
-    .hero-ctas{ flex-direction:column; width:100%; }
+    .container{ padding:0 20px; }
+    .hero{ padding:118px 0 64px; }
+    .hero-meta{ gap:18px; padding-top:24px; }
     .hero-ctas .btn{ width:100%; }
-    .hero-badges{ gap:8px; }
-    .gbadge{ font-size:11.5px; padding:8px 13px; }
-    .section-title{ font-size:clamp(23px,7vw,30px); }
-    .offer-price .p-value{ font-size:42px; }
-    .faq-cta{ margin-top:40px; padding-top:34px; }
+    .hero-ctas{ flex-direction:column; width:100%; }
+    .section{ padding:60px 0; }
+    .service{ padding:24px 22px; }
+    .offer-side, .offer-price{ padding:32px 24px; }
+    .final-cta{ padding:48px 24px; margin-top:56px; }
   }
-
 </style>
 </head>
 <body>
 
 <a href="#hero" class="skip-link">Pular para o conteúdo</a>
 
-<!-- ===================== HEADER ===================== -->
+<!-- HEADER -->
 <header class="site-header">
   <div class="container">
-    <a href="#hero" class="brand" aria-label="Eugência — página inicial">
+    <a href="#hero" class="brand">
       <span class="brand-badge"><img src="logo-icon.png" alt="Eugência" loading="eager"></span>
-      <span class="brand-name">EUGÊNCIA<small>Tráfego pago que capta clientes</small></span>
+      <span class="brand-name">Eugência<small>Captação de clientes nos EUA</small></span>
     </a>
     <nav class="nav-links" aria-label="Navegação principal">
       <a href="#dor">O problema</a>
@@ -783,387 +624,398 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
       <a href="#faq">Dúvidas</a>
     </nav>
     <div class="header-cta">
-      <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar modo claro/escuro" title="Alternar modo claro/escuro">
-        <svg class="icon-sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.9 19.1l1.7-1.7M17.4 6.6l1.7-1.7"/></svg>
-        <svg class="icon-moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.7A8.5 8.5 0 1 1 9.3 3.5a7 7 0 0 0 11.2 11.2Z"/></svg>
-      </button>
-      <a href="#contato" class="btn btn-primary">Quero clientes novos</a>
+      <a href="#contato" class="btn btn-primary">Quero captar clientes</a>
     </div>
   </div>
 </header>
 
 <main id="hero">
 
-  <!-- ===================== HERO ===================== -->
-  <section class="hero">
-    <div class="grid-texture" aria-hidden="true"></div>
-    <div class="container hero-inner">
-      <img src="logo-full.png" alt="Eugência" class="hero-logo">
-      <span class="flag-chip">🇧🇷 Feito por brasileiros · 🇺🇸 Para quem empreende nos EUA</span>
-      <h1>A gente <span class="cyan">capta clientes novos</span> para o seu negócio de serviço nos EUA — todos os dias.</h1>
-      <p class="hero-sub">Serviço completo de <span class="gg-highlight">Google Ads</span>, Google Guaranteed, Google Local Services, Meta Ads e Call Center bilíngue. Você foca no serviço. A gente coloca leads qualificados no seu WhatsApp.</p>
-      <div class="hero-ctas">
-        <a href="#contato" class="btn btn-primary">Quero captar clientes agora</a>
-        <a href="#dor" class="btn btn-ghost">Ver o problema</a>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid" aria-hidden="true"></div>
+  <div class="hero-glow" aria-hidden="true"></div>
+  <div class="container hero-inner">
+    <div class="hero-locale">
+      <span class="flags">
+        <span class="flag flag-br" aria-label="Brasil"></span>
+        <span class="flag flag-us" aria-label="EUA"></span>
+      </span>
+      Feito por brasileiros, para quem empreende nos EUA
+    </div>
+    <h1 class="display-1">
+      A gente <span class="em">capta</span> clientes novos pro seu negócio de serviço nos EUA. Todos os dias.
+    </h1>
+    <p class="lede">Serviço completo de Google Ads, Google Guaranteed, Google Local Services, Meta Ads e Call Center bilíngue. Você foca no serviço. A gente coloca leads qualificados no seu WhatsApp.</p>
+    <div class="hero-ctas">
+      <a href="#contato" class="btn btn-primary">Quero captar clientes <span class="arrow">→</span></a>
+      <a href="#dor" class="btn btn-ghost">Ver o problema real</a>
+    </div>
+    <div class="hero-meta">
+      <div class="hero-meta-item"><span class="dot"></span>Google Ads &nbsp;·&nbsp; <strong>Google Partner</strong></div>
+      <div class="hero-meta-item"><span class="dot"></span>Call Center <strong>bilíngue PT/EN</strong></div>
+      <div class="hero-meta-item"><span class="dot"></span><strong>7 dias</strong> para campanhas no ar</div>
+    </div>
+  </div>
+</section>
+
+<!-- PARA QUEM É + DOR -->
+<section class="section" id="dor">
+  <div class="container">
+    <div class="head-block reveal">
+      <div>
+        <div class="kicker">Para <b>quem é</b></div>
+        <h2 class="display-2">Donos brasileiros de negócio de serviço nos EUA.</h2>
       </div>
-      <div class="hero-badges">
-        <span class="gbadge strong"><span class="dot"></span>Google Ads</span>
-        <span class="gbadge">Google Guaranteed</span>
-        <span class="gbadge">Google Local Services</span>
-        <span class="gbadge">Meta Ads</span>
-        <span class="gbadge">Call Center</span>
+      <div class="niche-row">
+        <span class="niche-chip">House cleaning</span>
+        <span class="niche-chip">Construction</span>
+        <span class="niche-chip">Painting</span>
+        <span class="niche-chip">Roofing</span>
+        <span class="niche-chip">Landscaping</span>
+        <span class="niche-chip">Remodeling</span>
+        <span class="niche-chip">Moving</span>
+        <span class="niche-chip">HVAC</span>
       </div>
     </div>
-  </section>
 
-  <!-- ===================== CTA WHATSAPP (topo) ===================== -->
-  <section class="section" id="whatsapp-topo" style="padding-top:28px; padding-bottom:28px; border-top:none;">
-    <div class="container">
-      <div class="whatsapp-mega reveal">
-        <span class="whatsapp-mega__glow" aria-hidden="true"></span>
-        <a href="https://gerador-link.devzapp.com.br/s/zrAl7h" target="_blank" rel="noopener" class="whatsapp-mega__link" aria-label="Chamar no WhatsApp agora">
-          <span class="whatsapp-mega__ring-wrap">
-            <span class="whatsapp-mega__ring" aria-hidden="true"></span>
-            <span class="whatsapp-mega__ring" aria-hidden="true"></span>
-            <span class="whatsapp-mega__ring" aria-hidden="true"></span>
-            <span class="whatsapp-mega__bubble" aria-hidden="true">Quero mais clientes 👋</span>
-            <span class="whatsapp-mega__btn" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.77.46 3.45 1.35 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.11.11-1.79-.11-.41-.13-.94-.3-1.62-.6-2.85-1.23-4.71-4.1-4.85-4.29-.14-.19-1.16-1.54-1.16-2.94s.73-2.09 1-2.38c.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.81 2.01.88 2.16.07.15.12.32.02.51-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.29.29-.12.57.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.18-.27.37-.22.62-.13.26.09 1.63.77 1.91.91.28.14.47.21.53.33.07.12.07.68-.17 1.35Z"/></svg>
-            </span>
-          </span>
-          <span class="whatsapp-mega__cta-text">Falar no <span class="cyan">WhatsApp</span> agora</span>
-          <span class="whatsapp-mega__sub">Resposta rápida · Diagnóstico gratuito</span>
-        </a>
+    <div class="head-block reveal">
+      <div>
+        <div class="kicker">O <b>problema real</b></div>
+        <h2 class="display-2">Você trabalha o dia inteiro no serviço — e <span class="em" style="color:var(--accent)">depende de alguém</span> pra ter cliente novo.</h2>
       </div>
     </div>
-  </section>
+    <p class="lede reveal" style="margin-top:-24px;">Se algum sintoma abaixo é familiar, o problema não é o seu serviço. É a falta de captação ativa.</p>
 
-  <!-- ===================== PARA QUEM É + DOR ===================== -->
-  <section class="section" id="dor">
-    <div class="container">
-      <div class="head-block reveal">
-        <span class="label-tag">Para quem é</span>
-        <h2 class="section-title">Donos brasileiros de negócio de serviço nos EUA</h2>
-        <div class="niche-row">
-          <span class="niche-chip">🏠 House Cleaning</span>
-          <span class="niche-chip">🔨 Construction</span>
-          <span class="niche-chip">🎨 Painting</span>
-          <span class="niche-chip">🏡 Roofing</span>
-          <span class="niche-chip">🌿 Landscaping</span>
-          <span class="niche-chip">🛠 Remodeling</span>
-          <span class="niche-chip">🚚 Moving</span>
-          <span class="niche-chip">❄️ HVAC</span>
-        </div>
+    <div class="diagnostic reveal">
+      <div class="diag-head">
+        <span>sintoma</span>
+        <span class="diag-arrow">→</span>
+        <span class="diag-fix-head">com a eugência</span>
       </div>
-
-      <div class="head-block reveal" style="margin-bottom:0;">
-        <span class="label-tag">O problema real</span>
-        <h2 class="section-title">Você trabalha o dia inteiro no serviço — e <span class="accent">depende de alguém</span> para ter cliente novo</h2>
-        <p class="section-lede">Se algum sintoma abaixo é familiar, o problema não é o seu serviço. É a falta de captação ativa.</p>
+      <div class="diag-row">
+        <div class="diag-symptom"><b>sintoma</b>Você depende de indicação e boca a boca. Quando para, o telefone para.</div>
+        <div class="diag-arrow">→</div>
+        <div class="diag-fix"><b>com a eugência</b>Leads chegando todo dia vindos de Google e Meta Ads.</div>
       </div>
-
-      <div class="diagnostic reveal">
-        <div class="diagnostic-head">
-          <span class="live">sintoma</span>
-          <span>com a eugência</span>
-        </div>
-        <div class="diag-row">
-          <div class="diag-symptom"><b>sintoma</b>Você depende de indicação e boca a boca. Quando para, o telefone para.</div>
-          <div class="diag-arrow">→</div>
-          <div class="diag-fix"><b>eugência</b>Leads chegando todo dia vindos de Google e Meta Ads.</div>
-        </div>
-        <div class="diag-row">
-          <div class="diag-symptom"><b>sintoma</b>A agenda tem buraco na semana e você não sabe o que fazer pra preencher.</div>
-          <div class="diag-arrow">→</div>
-          <div class="diag-fix"><b>eugência</b>Campanhas otimizadas para gerar serviço novo todos os dias.</div>
-        </div>
-        <div class="diag-row">
-          <div class="diag-symptom"><b>sintoma</b>Você paga anúncio, mas nunca sabe quantos clientes de fato vieram dele.</div>
-          <div class="diag-arrow">→</div>
-          <div class="diag-fix"><b>eugência</b>Relatório claro: quantos leads, quanto custou cada um.</div>
-        </div>
-        <div class="diag-row">
-          <div class="diag-symptom"><b>sintoma</b>Os leads que chegam não fecham porque a equipe não dá conta de ligar/responder.</div>
-          <div class="diag-arrow">→</div>
-          <div class="diag-fix"><b>eugência</b>Call center bilíngue qualifica e agenda pra você.</div>
-        </div>
+      <div class="diag-row">
+        <div class="diag-symptom"><b>sintoma</b>A agenda tem buraco na semana e você não sabe o que fazer pra preencher.</div>
+        <div class="diag-arrow">→</div>
+        <div class="diag-fix"><b>com a eugência</b>Campanhas otimizadas para gerar serviço novo todos os dias.</div>
       </div>
-
-      <p class="closing-line reveal">Captação não é sorte. <b>É <span class="cyan">tráfego pago bem feito</span>, todos os dias.</b></p>
+      <div class="diag-row">
+        <div class="diag-symptom"><b>sintoma</b>Você paga anúncio, mas nunca sabe quantos clientes de fato vieram dele.</div>
+        <div class="diag-arrow">→</div>
+        <div class="diag-fix"><b>com a eugência</b>Relatório claro: quantos leads, quanto custou cada um.</div>
+      </div>
+      <div class="diag-row">
+        <div class="diag-symptom"><b>sintoma</b>Os leads que chegam não fecham porque a equipe não dá conta de ligar/responder.</div>
+        <div class="diag-arrow">→</div>
+        <div class="diag-fix"><b>com a eugência</b>Call Center bilíngue qualifica e agenda pra você.</div>
+      </div>
     </div>
-  </section>
 
-  <!-- ===================== MODO EUGÊNCIA ===================== -->
-  <section class="section eugencia-section" id="modo-eugencia">
-    <div class="container">
-      <div class="head-block center reveal">
-        <span class="label-tag">O resultado</span>
-        <h2 class="section-title">O que muda quando o <span class="accent">Modo Eugência</span> é ativado</h2>
+    <p class="closing-line reveal">Captação não é sorte. <span class="em">É tráfego pago bem feito, todos os dias.</span></p>
+  </div>
+</section>
+
+<!-- PAINEL STATUS -->
+<section class="section section-tight" id="modo">
+  <div class="container">
+    <div class="head-block reveal">
+      <div>
+        <div class="kicker">O <b>resultado</b></div>
+        <h2 class="display-2">Antes e depois do serviço.</h2>
       </div>
-      <div class="eugencia-panel reveal">
-        <div class="eugencia-top">
-          <div class="eugencia-title"><span class="dot"></span>painel_captacao.status</div>
-          <span class="status-pill">Ativado</span>
+    </div>
+    <div class="status-panel reveal">
+      <div class="status-head">
+        <div class="label">Status do serviço</div>
+        <span class="status-pill">Ativado</span>
+      </div>
+      <div class="status-grid">
+        <div class="status-row">
+          <div class="text"><b>Agenda vazia</b><span>sem previsão de cliente novo</span></div>
+          <div class="switch on"></div>
         </div>
-        <div class="eugencia-grid">
-          <div class="eugencia-row">
-            <div class="label"><b>Agenda vazia</b><span>sem previsão de cliente novo</span></div>
-            <div class="switch on"></div>
+        <div class="status-row">
+          <div class="text"><b>Leads chegando</b><span>toda semana, todo mês</span></div>
+          <div class="switch on"></div>
+        </div>
+        <div class="status-row dim">
+          <div class="text"><b>Equipe sobrecarregada</b><span>tentando responder todo mundo</span></div>
+          <div class="switch"></div>
+        </div>
+        <div class="status-row">
+          <div class="text"><b>Call Center Eugência</b><span>qualifica, agenda e entrega no WhatsApp</span></div>
+          <div class="switch on"></div>
+        </div>
+      </div>
+      <div class="status-foot"><b>Agora você recebe clientes prontos pra fechar</b>, não só "interessados".</div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVIÇOS -->
+<section class="section" id="servicos">
+  <div class="container">
+    <div class="head-block reveal">
+      <div>
+        <div class="kicker">O que a <b>gente faz</b></div>
+        <h2 class="display-2">Seis frentes de captação rodando juntas.</h2>
+      </div>
+      <p class="lede" style="margin-top:0;">Você não precisa entender de marketing. Você só precisa aprovar e atender os clientes que a gente leva até você.</p>
+    </div>
+
+    <div class="services-grid reveal">
+      <div class="service">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+        </div>
+        <h4>Google Ads</h4>
+        <p>Sua empresa aparece no topo do Google na hora em que alguém pesquisa pelo seu serviço na sua região.</p>
+        <span class="tag">Performance · CPC</span>
+      </div>
+      <div class="service">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5l-8-3z"/><path d="m9 12 2 2 4-4"/></svg>
+        </div>
+        <h4>Google Guaranteed</h4>
+        <p>Selo de verificação do Google que transmite confiança e destaca sua empresa nos serviços locais.</p>
+        <span class="tag">Verificação · Confiança</span>
+      </div>
+      <div class="service">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-7 8-13a8 8 0 1 0-16 0c0 6 8 13 8 13z"/><circle cx="12" cy="9" r="3"/></svg>
+        </div>
+        <h4>Google Local Services</h4>
+        <p>Anúncios locais por cidade e bairro, com lead direto no seu telefone e pagamento por lead.</p>
+        <span class="tag">Local · Pay-per-lead</span>
+      </div>
+      <div class="service">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 21V9"/></svg>
+        </div>
+        <h4>Meta Ads</h4>
+        <p>Facebook e Instagram segmentados por bairro, idioma e perfil pra gerar demanda onde o Google não alcança.</p>
+        <span class="tag">Social · Demanda</span>
+      </div>
+      <div class="service">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92V21a1 1 0 0 1-1.11 1 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 3.18 4.11 1 1 0 0 1 4.18 3h4.09a1 1 0 0 1 1 .75l1 4a1 1 0 0 1-.27 1l-1.7 1.7a16 16 0 0 0 6 6l1.7-1.7a1 1 0 0 1 1-.27l4 1a1 1 0 0 1 .75 1z"/></svg>
+        </div>
+        <h4>Call Center bilíngue</h4>
+        <p>Atende, qualifica e agenda o lead direto na sua agenda. Em inglês e português.</p>
+        <span class="tag">PT · EN · 7 dias</span>
+      </div>
+      <div class="service">
+        <div class="service-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 14 4-4 4 4 5-5"/></svg>
+        </div>
+        <h4>Relatórios + otimização</h4>
+        <p>Você recebe relatório claro toda semana: leads, custo, conversão. A gente otimiza em tempo real.</p>
+        <span class="tag">Semanal · ROI</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESSO -->
+<section class="section" id="processo">
+  <div class="container">
+    <div class="head-block reveal">
+      <div>
+        <div class="kicker">Como <b>funciona</b></div>
+        <h2 class="display-2">Em até sete dias sua empresa está captando.</h2>
+      </div>
+    </div>
+
+    <div class="timeline reveal">
+      <div class="step" data-num="01">
+        <h4>Diagnóstico no WhatsApp</h4>
+        <p>A gente entende seu serviço, região, ticket médio e meta de clientes novos. Rápido, sem formulário.</p>
+      </div>
+      <div class="step" data-num="02">
+        <h4>Plano de captação</h4>
+        <p>Definimos canais, verba e meta de leads por mês. Sem pacotes prontos — cada negócio tem um plano.</p>
+      </div>
+      <div class="step" data-num="03">
+        <h4>Campanhas no ar</h4>
+        <p>Criamos e subimos Google Ads, Local Services e Meta Ads da sua empresa. Verificação do Google Guaranteed inclusa quando aplicável.</p>
+      </div>
+      <div class="step" data-num="04">
+        <h4>Leads no seu WhatsApp</h4>
+        <p>Call Center qualifica, agenda e entrega cliente pronto pra fechar. Você atende.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section class="section" id="depoimentos">
+  <div class="container">
+    <div class="head-block reveal">
+      <div>
+        <div class="kicker">Quem <b>já capta</b> com a gente</div>
+        <h2 class="display-2">Três histórias, três agendas cheias.</h2>
+      </div>
+    </div>
+
+    <div class="testi-grid reveal">
+      <div class="testi">
+        <p class="testi-quote">"Antes da Eugência eu dependia só de indicação. Hoje recebo leads toda semana vindos do Google e minha agenda tá sempre cheia."</p>
+        <div class="testi-meta">
+          <div class="testi-avatar"><img src="testi-helena.png" alt="Helena"></div>
+          <div>
+            <div class="testi-name">Helena</div>
+            <div class="testi-role">House Cleaning · Pampa, EUA</div>
           </div>
-          <div class="eugencia-row">
-            <div class="label"><b>Leads chegando</b><span>toda semana, todo mês</span></div>
-            <div class="switch on"></div>
-          </div>
-          <div class="eugencia-row">
-            <div class="label"><b>Equipe sobrecarregada</b><span>tentando responder todo mundo</span></div>
-            <div class="switch"></div>
-          </div>
-          <div class="eugencia-row">
-            <div class="label"><b>Call Center Eugência</b><span>qualifica, agenda e entrega no seu WhatsApp</span></div>
-            <div class="switch on"></div>
+        </div>
+      </div>
+      <div class="testi">
+        <p class="testi-quote">"A gente já tinha tentado agência americana e não fechava. A Eugência montou Google Ads + Local Services e em 30 dias a agenda lotou."</p>
+        <div class="testi-meta">
+          <div class="testi-avatar"><img src="testi-hg.png" alt="H&amp;G Construction"></div>
+          <div>
+            <div class="testi-name">H&amp;G</div>
+            <div class="testi-role">Construction · Boston, EUA</div>
           </div>
         </div>
-        <p class="eugencia-foot">Agora <b>você recebe clientes prontos para fechar</b>, não só "interessados".</p>
       </div>
-    </div>
-  </section>
-
-  <!-- ===================== SERVIÇOS ===================== -->
-  <section class="section" id="servicos">
-    <div class="container">
-      <div class="head-block reveal">
-        <span class="label-tag">O que a gente faz</span>
-        <h2 class="section-title">Serviço completo de <span class="accent">captação nos EUA</span></h2>
-        <p class="section-lede">Você não precisa entender de marketing. Você só precisa aprovar e atender os clientes que a gente leva até você.</p>
-      </div>
-      <div class="pillars-grid reveal">
-        <div class="pillar-card">
-          <span class="pillar-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
-          </span>
-          <span class="pillar-num">01</span>
-          <h4>Google Ads</h4>
-          <p>Sua empresa aparece no topo do Google na hora em que alguém pesquisa pelo seu serviço na sua região.</p>
-        </div>
-        <div class="pillar-card">
-          <span class="pillar-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5l-8-3z"/><path d="m9 12 2 2 4-4"/></svg>
-          </span>
-          <span class="pillar-num">02</span>
-          <h4>Google Guaranteed</h4>
-          <p>Selo de verificação do Google que transmite confiança e faz você aparecer com destaque nos serviços locais.</p>
-        </div>
-        <div class="pillar-card">
-          <span class="pillar-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-7 8-13a8 8 0 1 0-16 0c0 6 8 13 8 13z"/><circle cx="12" cy="9" r="3"/></svg>
-          </span>
-          <span class="pillar-num">03</span>
-          <h4>Google Local Services</h4>
-          <p>Anúncios locais segmentados por cidade e bairro, com lead direto no seu telefone e pagamento por lead.</p>
-        </div>
-        <div class="pillar-card">
-          <span class="pillar-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-          </span>
-          <span class="pillar-num">04</span>
-          <h4>Meta Ads (Facebook + Instagram)</h4>
-          <p>Campanhas segmentadas por bairro, idioma e perfil para gerar demanda onde o Google Ads não alcança.</p>
-        </div>
-        <div class="pillar-card">
-          <span class="pillar-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92V21a1 1 0 0 1-1.11 1 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 3.18 4.11 1 1 0 0 1 4.18 3h4.09a1 1 0 0 1 1 .75l1 4a1 1 0 0 1-.27 1l-1.7 1.7a16 16 0 0 0 6 6l1.7-1.7a1 1 0 0 1 1-.27l4 1a1 1 0 0 1 .75 1z"/></svg>
-          </span>
-          <span class="pillar-num">05</span>
-          <h4>Call Center Bilíngue</h4>
-          <p>Equipe em inglês e português que atende, qualifica e agenda o lead direto na sua agenda.</p>
-        </div>
-        <div class="pillar-card">
-          <span class="pillar-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 14 4-4 4 4 5-5"/></svg>
-          </span>
-          <span class="pillar-num">06</span>
-          <h4>Relatórios + Otimização</h4>
-          <p>Você recebe relatório claro toda semana: leads, custo, conversão. A gente otimiza em tempo real.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== COMO FUNCIONA ===================== -->
-  <section class="section" id="processo">
-    <div class="container">
-      <div class="head-block center reveal">
-        <span class="label-tag" style="justify-content:center;">Como funciona</span>
-        <h2 class="section-title">Em até <span class="accent">7 dias</span> sua empresa está captando</h2>
-      </div>
-      <div class="process-grid reveal">
-        <div class="process-step">
-          <span class="process-step__num">01</span>
-          <h4>Diagnóstico no WhatsApp</h4>
-          <p>A gente entende seu serviço, região, ticket médio e meta de clientes novos.</p>
-        </div>
-        <div class="process-step">
-          <span class="process-step__num">02</span>
-          <h4>Plano de captação</h4>
-          <p>Definimos canais, verba e meta de leads por mês — sem pacotes prontos.</p>
-        </div>
-        <div class="process-step">
-          <span class="process-step__num">03</span>
-          <h4>Campanhas no ar</h4>
-          <p>Criamos e subimos Google Ads, Local Services e Meta Ads da sua empresa.</p>
-        </div>
-        <div class="process-step">
-          <span class="process-step__num">04</span>
-          <h4>Leads no seu WhatsApp</h4>
-          <p>Call Center qualifica, agenda e entrega cliente pronto pra fechar.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== DEPOIMENTOS ===================== -->
-  <section class="section" id="depoimentos">
-    <div class="container">
-      <div class="head-block center reveal">
-        <span class="label-tag" style="justify-content:center;">Quem já capta com a gente</span>
-        <h2 class="section-title">O que nossos <span class="accent">clientes</span> dizem</h2>
-      </div>
-      <div class="testi-grid reveal">
-        <div class="testi-card">
-          <div><span class="quote-mark">"</span><p>Antes da Eugência eu dependia só de indicação. Hoje recebo leads toda semana vindos do Google e minha agenda tá sempre cheia.</p></div>
-          <div class="testi-foot"><span class="testi-avatar"><img src="testi-helena.png" alt="Cliente Helena House Cleaning"></span><span>Helena House Cleaning — Pampa, EUA</span></div>
-        </div>
-        <div class="testi-card">
-          <div><span class="quote-mark">"</span><p>A gente já tinha tentado agência americana e não fechava. A Eugência montou Google Ads + Local Services e em 30 dias a agenda lotou.</p></div>
-          <div class="testi-foot"><span class="testi-avatar"><img src="testi-hg.png" alt="Cliente H&amp;G Construction"></span><span>H&amp;G Construction — Boston, EUA</span></div>
-        </div>
-        <div class="testi-card">
-          <div><span class="quote-mark">"</span><p>O call center deles mudou tudo. Eles atendem em inglês, qualificam e só me passam cliente pronto pra fechar. Parei de perder lead.</p></div>
-          <div class="testi-foot"><span class="testi-avatar"><img src="testi-lcs.png" alt="Cliente LCS Painting & Remodeling"></span><span>LCS Painting &amp; Remodeling — Seattle, EUA</span></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===================== OFERTA ===================== -->
-  <section class="section" id="oferta">
-    <div class="container">
-      <div class="head-block center reveal">
-        <span class="label-tag" style="justify-content:center;">A oferta</span>
-        <h2 class="section-title">Vamos captar <span class="accent">clientes novos</span> para o seu negócio</h2>
-      </div>
-      <div class="offer-wrap reveal">
-        <div class="offer-card">
-          <h3 class="offer-title">Serviço de Captação Eugência</h3>
-          <p class="offer-tagline">Google Ads · Local Services · Meta Ads · Call Center</p>
-          <div class="offer-price">
-            <div class="p-note">A partir de</div>
-            <div class="p-value">U$ 497/mês</div>
-            <div class="p-note">+ verba de mídia (definida no plano) · Sem fidelidade longa</div>
+      <div class="testi">
+        <p class="testi-quote">"O call center mudou tudo. Eles atendem em inglês, qualificam e só me passam cliente pronto pra fechar. Parei de perder lead."</p>
+        <div class="testi-meta">
+          <div class="testi-avatar"><img src="testi-lcs.png" alt="LCS"></div>
+          <div>
+            <div class="testi-name">LCS</div>
+            <div class="testi-role">Painting &amp; Remodeling · Seattle, EUA</div>
           </div>
-          <ul class="offer-grid">
-            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Google Ads</li>
-            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Google Guaranteed</li>
-            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Google Local Services</li>
-            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Meta Ads</li>
-            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Call Center bilíngue</li>
-            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Otimização semanal</li>
-            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Relatórios claros</li>
-            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Suporte direto no WhatsApp</li>
-          </ul>
-          <a href="#contato" class="btn btn-primary btn-block">Quero captar clientes agora</a>
-          <span class="btn-sub">Vagas limitadas por região · Diagnóstico gratuito</span>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- ===================== CTA WHATSAPP (final) ===================== -->
-  <section class="section" id="contato">
-    <div class="container">
-      <div class="head-block center reveal">
-        <span class="label-tag" style="justify-content:center;">Fale com a gente agora</span>
-        <h2 class="section-title">Sua agenda começa a encher com <span class="accent">uma mensagem</span></h2>
-        <p class="section-lede" style="margin-left:auto; margin-right:auto;">Chama no WhatsApp, faz um diagnóstico gratuito e recebe um plano de captação sob medida para o seu serviço.</p>
-      </div>
-
-      <div class="whatsapp-mega reveal">
-        <span class="whatsapp-mega__glow" aria-hidden="true"></span>
-        <a href="https://gerador-link.devzapp.com.br/s/zrAl7h" target="_blank" rel="noopener" class="whatsapp-mega__link" aria-label="Chamar no WhatsApp agora">
-          <span class="whatsapp-mega__ring-wrap">
-            <span class="whatsapp-mega__ring" aria-hidden="true"></span>
-            <span class="whatsapp-mega__ring" aria-hidden="true"></span>
-            <span class="whatsapp-mega__ring" aria-hidden="true"></span>
-            <span class="whatsapp-mega__bubble" aria-hidden="true">Quero captar clientes 👋</span>
-            <span class="whatsapp-mega__btn" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.77.46 3.45 1.35 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.11.11-1.79-.11-.41-.13-.94-.3-1.62-.6-2.85-1.23-4.71-4.1-4.85-4.29-.14-.19-1.16-1.54-1.16-2.94s.73-2.09 1-2.38c.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.81 2.01.88 2.16.07.15.12.32.02.51-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.29.29-.12.57.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.18-.27.37-.22.62-.13.26.09 1.63.77 1.91.91.28.14.47.21.53.33.07.12.07.68-.17 1.35Z"/></svg>
-            </span>
-          </span>
-          <span class="whatsapp-mega__cta-text">Falar no <span class="cyan">WhatsApp</span> agora</span>
-          <span class="whatsapp-mega__sub">Diagnóstico gratuito · Sem compromisso</span>
-        </a>
+<!-- OFERTA -->
+<section class="section" id="oferta">
+  <div class="container">
+    <div class="head-block reveal">
+      <div>
+        <div class="kicker">A <b>oferta</b></div>
+        <h2 class="display-2">Vamos captar clientes novos pro seu negócio.</h2>
       </div>
     </div>
-  </section>
 
-  <!-- ===================== FAQ ===================== -->
-  <section class="section" id="faq">
-    <div class="container">
-      <div class="head-block center reveal">
-        <span class="label-tag" style="justify-content:center;">Dúvidas frequentes</span>
-        <h2 class="section-title">Perguntas <span class="accent">frequentes</span></h2>
+    <div class="offer reveal">
+      <div class="offer-side">
+        <div class="lead">Serviço completo de captação, sem você virar especialista.</div>
+        <p class="sub">Google Ads, Google Guaranteed, Google Local Services, Meta Ads e Call Center — tudo gerenciado pela Eugência.</p>
+        <ul class="included">
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Google Ads</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Google Guaranteed</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Google Local Services</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Meta Ads</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Call Center bilíngue</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Otimização semanal</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Relatórios claros</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Suporte direto no WhatsApp</li>
+        </ul>
+        <div class="meta"><b>Vagas limitadas por região.</b> Diagnóstico gratuito no WhatsApp.</div>
       </div>
-      <div class="faq-list reveal">
-        <details class="faq-item">
-          <summary>Preciso entender de marketing pra contratar?<span class="plus"></span></summary>
-          <div class="faq-a">Não. A gente cuida de tudo: cria as campanhas, ajusta, responde e entrega os leads prontos. Você só atende o cliente.</div>
-        </details>
-        <details class="faq-item">
-          <summary>Atende House Cleaning e Construction?<span class="plus"></span></summary>
-          <div class="faq-a">Sim. A gente é especializado em brasileiros donos de negócio de serviço local nos EUA — cleaning, construction, painting, roofing, landscaping, remodeling, HVAC, moving, entre outros.</div>
-        </details>
-        <details class="faq-item">
-          <summary>Quanto custa?<span class="plus"></span></summary>
-          <div class="faq-a">O serviço de gestão começa em US$ 497/mês. A verba de mídia (Google, Meta, Local Services) é definida no plano e fica por conta do cliente. Sem fidelidade longa.</div>
-        </details>
-        <details class="faq-item">
-          <summary>Em quanto tempo começo a receber clientes?<span class="plus"></span></summary>
-          <div class="faq-a">Em média, as campanhas ficam no ar em até 7 dias após o diagnóstico. Os primeiros leads costumam chegar nas primeiras 2 semanas, dependendo da região e da verba.</div>
-        </details>
-        <details class="faq-item">
-          <summary>Como funciona o Call Center?<span class="plus"></span></summary>
-          <div class="faq-a">Atendemos em inglês e português, qualificamos o lead (serviço, região, urgência), agendamos e enviamos o cliente pronto no seu WhatsApp. Você só confirma e atende.</div>
-        </details>
-        <details class="faq-item">
-          <summary>Já tenho uma agência. Posso trocar?<span class="plus"></span></summary>
-          <div class="faq-a">Sim. A gente assume suas campanhas, avalia o que está rodando e melhora. Muitos clientes chegam cansados da agência anterior — em 30 dias a diferença aparece.</div>
-        </details>
-      </div>
-
-      <div class="faq-cta reveal">
-        <h3>Você tem serviço de qualidade.<br>Agora é hora de ter <span class="cyan">clientes todo dia</span> batendo na sua porta.</h3>
-        <p>A gente cuida da captação. Você cuida do serviço.</p>
-        <a href="#contato" class="btn btn-primary">Quero captar clientes agora</a>
+      <div class="offer-price">
+        <span class="price-label">A partir de</span>
+        <div class="price-value">US$ 497<small>/mês</small></div>
+        <p class="price-note">+ verba de mídia (definida no plano).<br><b>Sem fidelidade longa.</b></p>
+        <a href="#contato" class="btn btn-primary btn-block price-cta">Quero captar clientes <span class="arrow">→</span></a>
+        <span class="price-fine">Resposta em horário comercial americano.</span>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- CTA WHATSAPP FINAL -->
+<section class="section" id="contato">
+  <div class="container">
+    <div class="wa-mega reveal">
+      <div class="wa-mega__glow" aria-hidden="true"></div>
+      <a href="https://gerador-link.devzapp.com.br/s/zrAl7h" target="_blank" rel="noopener" class="wa-mega__link" aria-label="Chamar no WhatsApp agora">
+        <div class="wa-mega__ring-wrap">
+          <div class="wa-mega__ring" aria-hidden="true"></div>
+          <div class="wa-mega__ring" aria-hidden="true"></div>
+          <div class="wa-mega__ring" aria-hidden="true"></div>
+          <div class="wa-mega__bubble" aria-hidden="true">Quero captar clientes 👋</div>
+          <div class="wa-mega__btn" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.77.46 3.45 1.35 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.11.11-1.79-.11-.41-.13-.94-.3-1.62-.6-2.85-1.23-4.71-4.1-4.85-4.29-.14-.19-1.16-1.54-1.16-2.94s.73-2.09 1-2.38c.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.81 2.01.88 2.16.07.15.12.32.02.51-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.29.29-.12.57.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.18-.27.37-.22.62-.13.26.09 1.63.77 1.91.91.28.14.47.21.53.33.07.12.07.68-.17 1.35Z"/></svg>
+          </div>
+        </div>
+        <div class="wa-mega__title">Falar no <span class="em">WhatsApp</span> agora</div>
+        <div class="wa-mega__sub">Diagnóstico gratuito · Sem compromisso</div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section" id="faq">
+  <div class="container">
+    <div class="head-block center reveal" style="justify-content:center;">
+      <div>
+        <div class="kicker" style="justify-content:center;">Dúvidas <b>frequentes</b></div>
+        <h2 class="display-2" style="margin:14px auto 0; text-align:center; max-width:600px;">Antes de chamar no WhatsApp.</h2>
+      </div>
+    </div>
+
+    <div class="faq-list reveal">
+      <details class="faq-item">
+        <summary>Preciso entender de marketing pra contratar?<span class="toggle"></span></summary>
+        <div class="faq-a">Não. A gente cuida de tudo: cria as campanhas, ajusta, responde e entrega os leads prontos. Você só atende o cliente.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Atende House Cleaning e Construction?<span class="toggle"></span></summary>
+        <div class="faq-a">Sim. A gente é especializado em brasileiros donos de negócio de serviço local nos EUA — cleaning, construction, painting, roofing, landscaping, remodeling, HVAC, moving, entre outros.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Quanto custa?<span class="toggle"></span></summary>
+        <div class="faq-a">O serviço de gestão começa em US$ 497/mês. A verba de mídia (Google, Meta, Local Services) é definida no plano e fica por conta do cliente. Sem fidelidade longa.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Em quanto tempo começo a receber clientes?<span class="toggle"></span></summary>
+        <div class="faq-a">Em média, as campanhas ficam no ar em até 7 dias após o diagnóstico. Os primeiros leads costumam chegar nas primeiras 2 semanas, dependendo da região e da verba.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Como funciona o Call Center?<span class="toggle"></span></summary>
+        <div class="faq-a">Atendemos em inglês e português, qualificamos o lead (serviço, região, urgência), agendamos e enviamos o cliente pronto no seu WhatsApp. Você só confirma e atende.</div>
+      </details>
+      <details class="faq-item">
+        <summary>Já tenho uma agência. Posso trocar?<span class="toggle"></span></summary>
+        <div class="faq-a">Sim. A gente assume suas campanhas, avalia o que está rodando e melhora. Muitos clientes chegam cansados da agência anterior — em 30 dias a diferença aparece.</div>
+      </details>
+    </div>
+
+    <div class="final-cta reveal">
+      <h3>Você tem serviço de qualidade. Agora é hora de ter <span style="color:var(--accent)">clientes todo dia</span> batendo na sua porta.</h3>
+      <p>A gente cuida da captação. Você cuida do serviço.</p>
+      <a href="#contato" class="btn btn-primary">Quero captar clientes <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
 
 </main>
 
-<!-- ===================== FOOTER ===================== -->
+<!-- FOOTER -->
 <footer class="site-footer">
   <div class="container">
     <div class="footer-top">
-      <div class="brand">
+      <a href="#hero" class="brand">
         <span class="brand-badge"><img src="logo-icon.png" alt="Eugência" loading="lazy"></span>
-        <span class="brand-name">EUGÊNCIA<small>Tráfego pago que capta clientes</small></span>
-      </div>
-      <div class="footer-links">
+        <span class="brand-name">Eugência<small>Captação de clientes nos EUA</small></span>
+      </a>
+      <nav class="footer-links" aria-label="Rodapé">
         <a href="#dor">O problema</a>
         <a href="#servicos">Serviços</a>
         <a href="#oferta">Oferta</a>
         <a href="#faq">FAQ</a>
-      </div>
+      </nav>
       <div class="footer-contact">
         <a href="mailto:jeitofacildevender@gmail.com">jeitofacildevender@gmail.com</a>
         <a href="https://instagram.com/mentoria_eugencia_usa" target="_blank" rel="noopener">@mentoria_eugencia_usa</a>
@@ -1171,38 +1023,28 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
     </div>
     <div class="footer-bottom">
       <span>© 2026 Eugência. Todos os direitos reservados.</span>
-      <span>[EDITAR: link Termos de Uso] · [EDITAR: link Política de Privacidade]</span>
+      <span>Termos de Uso · Política de Privacidade</span>
     </div>
   </div>
 </footer>
 
-<!-- ===================== STICKY MOBILE CTA ===================== -->
+<!-- STICKY MOBILE -->
 <div class="sticky-cta" id="stickyCta">
-  <a href="https://gerador-link.devzapp.com.br/s/zrAl7h" target="_blank" rel="noopener" class="btn btn-primary btn-block">Chamar no WhatsApp agora</a>
+  <a href="https://gerador-link.devzapp.com.br/s/zrAl7h" target="_blank" rel="noopener" class="btn btn-primary btn-block">Chamar no WhatsApp</a>
 </div>
 
-<!-- ===================== WHATSAPP FLUTUANTE (LATERAL) ===================== -->
-<a href="https://gerador-link.devzapp.com.br/s/zrAl7h" target="_blank" rel="noopener" class="whatsapp-float" aria-label="Falar no WhatsApp" title="Falar no WhatsApp">
-  <svg class="wa-icon" width="30" height="30" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.77.46 3.45 1.35 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.11.11-1.79-.11-.41-.13-.94-.3-1.62-.6-2.85-1.23-4.71-4.1-4.85-4.29-.14-.19-1.16-1.54-1.16-2.94s.73-2.09 1-2.38c.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.81 2.01.88 2.16.07.15.12.32.02.51-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.29.29-.12.57.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.18-.27.37-.22.62-.13.26.09 1.63.77 1.91.91.28.14.47.21.53.33.07.12.07.68-.17 1.35Z"/></svg>
+<!-- WHATSAPP FLUTUANTE -->
+<a href="https://gerador-link.devzapp.com.br/s/zrAl7h" target="_blank" rel="noopener" class="wa-float" aria-label="Falar no WhatsApp" title="Falar no WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.77.46 3.45 1.35 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.11.11-1.79-.11-.41-.13-.94-.3-1.62-.6-2.85-1.23-4.71-4.1-4.85-4.29-.14-.19-1.16-1.54-1.16-2.94s.73-2.09 1-2.38c.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.81 2.01.88 2.16.07.15.12.32.02.51-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.29.29-.12.57.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.18-.27.37-.22.62-.13.26.09 1.63.77 1.91.91.28.14.47.21.53.33.07.12.07.68-.17 1.35Z"/></svg>
 </a>
 
-<!-- ===================== CURSOR ANIMADO ===================== -->
-<div class="cursor-glow" aria-hidden="true"></div>
-<div class="cursor-dot" aria-hidden="true"></div>
-<div class="cursor-ring" aria-hidden="true"></div>
-
 <script>
-  /* ===== BANDEIRA: respeita "menos movimento" ===== */
-  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    document.querySelectorAll('#clothWave animate').forEach(a => a.remove());
-  }
-
   const revealEls = document.querySelectorAll('.reveal');
   const io = new IntersectionObserver((entries) => {
     entries.forEach(e => {
       if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
     });
-  }, { threshold: 0.12 });
+  }, { threshold: 0.1 });
   revealEls.forEach(el => io.observe(el));
 
   const stickyCta = document.getElementById('stickyCta');
@@ -1211,69 +1053,6 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
     entries.forEach(e => { stickyCta.classList.toggle('show', !e.isIntersecting); });
   }, { threshold: 0 });
   stickyIo.observe(hero);
-
-  /* ===== MODO CLARO / ESCURO ===== */
-  const root = document.documentElement;
-  const themeToggle = document.getElementById('themeToggle');
-  themeToggle.addEventListener('click', () => {
-    const isLight = root.getAttribute('data-theme') === 'light';
-    root.setAttribute('data-theme', isLight ? 'dark' : 'light');
-  });
-
-  /* ===== CURSOR ANIMADO (somente em dispositivos com mouse) ===== */
-  if (window.matchMedia('(pointer: fine)').matches) {
-    document.body.classList.add('cursor-ready');
-    const dot = document.querySelector('.cursor-dot');
-    const ring = document.querySelector('.cursor-ring');
-    const glow = document.querySelector('.cursor-glow');
-    let mouseX = window.innerWidth / 2, mouseY = window.innerHeight / 2;
-    let ringX = mouseX, ringY = mouseY;
-    let glowX = mouseX, glowY = mouseY;
-
-    window.addEventListener('mousemove', (e) => {
-      mouseX = e.clientX; mouseY = e.clientY;
-      dot.style.left = mouseX + 'px';
-      dot.style.top = mouseY + 'px';
-    });
-
-    function animateCursor() {
-      ringX += (mouseX - ringX) * 0.18;
-      ringY += (mouseY - ringY) * 0.18;
-      ring.style.left = ringX + 'px';
-      ring.style.top = ringY + 'px';
-
-      glowX += (mouseX - glowX) * 0.09;
-      glowY += (mouseY - glowY) * 0.09;
-      glow.style.left = glowX + 'px';
-      glow.style.top = glowY + 'px';
-
-      requestAnimationFrame(animateCursor);
-    }
-    animateCursor();
-
-    document.addEventListener('mousedown', () => ring.classList.add('hover'));
-    document.addEventListener('mouseup', () => ring.classList.remove('hover'));
-
-    const hoverTargets = 'a, button, summary, .niche-chip, .pillar-card, .gbadge, .faq-item, .testi-card, .process-step';
-    document.querySelectorAll(hoverTargets).forEach((el) => {
-      el.addEventListener('mouseenter', () => ring.classList.add('hover'));
-      el.addEventListener('mouseleave', () => ring.classList.remove('hover'));
-    });
-
-    const textTargets = 'h1, h2, h3, h4, p, li, .section-lede, .method-intro, .closing-line, .flag-chip, .diag-symptom, .diag-fix';
-    document.querySelectorAll(textTargets).forEach((el) => {
-      el.addEventListener('mouseenter', () => {
-        glow.classList.add('text-hover');
-        dot.classList.add('text-hover');
-        ring.classList.add('text-hover');
-      });
-      el.addEventListener('mouseleave', () => {
-        glow.classList.remove('text-hover');
-        dot.classList.remove('text-hover');
-        ring.classList.remove('text-hover');
-      });
-    });
-  }
 </script>
 
 </body>
