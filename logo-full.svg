@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Social Marketing EUA">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 320" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Social Marketing EUA — bandeiras do Brasil e dos Estados Unidos">
   <defs>
     <linearGradient id="brGrad" x1="0" x2="0" y1="0" y2="1">
       <stop offset="0" stop-color="#1FB874"/><stop offset="1" stop-color="#148F5C"/>
@@ -12,58 +12,61 @@
     <linearGradient id="usNavy" x1="0" x2="0" y1="0" y2="1">
       <stop offset="0" stop-color="#3B5A9A"/><stop offset="1" stop-color="#2A4275"/>
     </linearGradient>
-    <linearGradient id="cyanText" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0" stop-color="#22D3EE"/>
-      <stop offset="1" stop-color="#0E8FA8"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
-      <feOffset dx="0" dy="4" result="off"/>
-      <feComponentTransfer><feFuncA type="linear" slope=".5"/></feComponentTransfer>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="3" result="off"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".45"/></feComponentTransfer>
       <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
   </defs>
 
-  <!-- ============ Mastro centralizado ============ -->
-  <g transform="translate(360,30)">
-    <rect x="-2" y="0" width="4" height="180" rx="2" fill="#A9B0BF"/>
-    <circle cx="0" cy="2" r="6" fill="#22D3EE"/>
-    <circle cx="0" cy="2" r="11" fill="#22D3EE" opacity=".22"/>
+  <!-- Grupo centrado: as duas bandeiras (sem mastro, sem texto) -->
+  <g transform="translate(360,160)">
 
-    <!-- Bandeira BR (esquerda) -->
-    <g transform="translate(-220,12)">
-      <path d="M 0 0 Q 50 -5 100 0 Q 150 5 200 0 L 200 130 Q 150 135 100 130 Q 50 125 0 130 Z" fill="url(#brGrad)" filter="url(#shadow)"/>
-      <polygon points="100,18 162,65 100,112 38,65" fill="url(#brYel)"/>
-      <circle cx="100" cy="65" r="22" fill="#2C4A82"/>
-      <path d="M 82 58 Q 100 65 118 58" stroke="#F2F4F7" stroke-width="2" fill="none" stroke-linecap="round"/>
-      <path d="M 82 72 Q 100 65 118 72" stroke="#F2F4F7" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- ==== Bandeira Brasil (esquerda) — 320x224, centrada em (-180, 0) ==== -->
+    <g transform="translate(-340,-112)">
+      <!-- Tecido -->
+      <path d="M 0 0 Q 80 -10 160 0 Q 240 10 320 0 L 320 224 Q 240 234 160 224 Q 80 214 0 224 Z"
+            fill="url(#brGrad)" filter="url(#shadow)"/>
+      <!-- Losango amarelo -->
+      <polygon points="160,32 264,112 160,192 56,112" fill="url(#brYel)"/>
+      <!-- Círculo azul + cinturão + estrelas -->
+      <circle cx="160" cy="112" r="38" fill="#2C4A82"/>
+      <path d="M 130 100 Q 160 114 190 100" stroke="#F2F4F7" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M 130 122 Q 160 110 190 122" stroke="#F2F4F7" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <!-- Pequena "faixa" branca -->
+      <rect x="0" y="98" width="320" height="4" fill="#F2F4F7" opacity=".18"/>
     </g>
 
-    <!-- Bandeira EUA (direita) -->
-    <g transform="translate(20,12)">
-      <path d="M 0 0 Q 40 -4 80 0 Q 120 4 160 0 Q 180 -2 200 0 L 200 120 Q 180 122 160 120 Q 120 124 80 120 Q 40 116 0 120 Z" fill="url(#usRed)" filter="url(#shadow)"/>
-      <path d="M 0 18 Q 40 14 80 18 Q 120 22 160 18 Q 180 16 200 18 L 200 34 Q 180 36 160 34 Q 120 38 80 34 Q 40 30 0 34 Z" fill="#F2F4F7"/>
-      <path d="M 0 52 Q 40 48 80 52 Q 120 56 160 52 Q 180 50 200 52 L 200 68 Q 180 70 160 68 Q 120 72 80 68 Q 40 64 0 68 Z" fill="#F2F4F7"/>
-      <path d="M 0 86 Q 40 82 80 86 Q 120 90 160 86 Q 180 84 200 86 L 200 102 Q 180 104 160 102 Q 120 106 80 102 Q 40 98 0 102 Z" fill="#F2F4F7"/>
-      <path d="M 0 0 Q 40 -4 80 0 Q 90 -1 100 0 L 100 46 Q 90 47 80 46 Q 40 50 0 46 Z" fill="url(#usNavy)"/>
+    <!-- ==== Bandeira EUA (direita) — 320x208, centrada em (180, 0), com leve "abanando" ==== -->
+    <g transform="translate(20,-104)">
+      <!-- Tecido vermelho/branco -->
+      <path d="M 0 0 Q 70 -6 140 0 Q 210 6 280 0 L 320 -2 L 320 210 Q 280 212 210 210 Q 140 216 70 210 Q 0 204 0 210 L 0 0 Z"
+            fill="url(#usRed)" filter="url(#shadow)"/>
+      <!-- Faixas brancas horizontais -->
+      <path d="M 0 32 Q 70 26 140 32 Q 210 38 280 32 L 320 30 L 320 64 Q 280 66 210 64 Q 140 70 70 64 Q 0 58 0 64 Z" fill="#F2F4F7"/>
+      <path d="M 0 96 Q 70 90 140 96 Q 210 102 280 96 L 320 94 L 320 128 Q 280 130 210 128 Q 140 134 70 128 Q 0 122 0 128 Z" fill="#F2F4F7"/>
+      <path d="M 0 160 Q 70 154 140 160 Q 210 166 280 160 L 320 158 L 320 192 Q 280 194 210 192 Q 140 198 70 192 Q 0 186 0 192 Z" fill="#F2F4F7"/>
+      <!-- Cantinho azul -->
+      <path d="M 0 0 Q 70 -6 140 0 Q 160 -1 168 0 L 168 78 Q 160 79 140 78 Q 70 84 0 78 Z" fill="url(#usNavy)"/>
+      <!-- Estrelinhas (4 linhas × 6 cols) -->
       <g fill="#F2F4F7">
-        <circle cx="10" cy="8" r="1.6"/><circle cx="22" cy="8" r="1.6"/><circle cx="34" cy="8" r="1.6"/><circle cx="46" cy="8" r="1.6"/><circle cx="58" cy="8" r="1.6"/><circle cx="70" cy="8" r="1.6"/><circle cx="82" cy="8" r="1.6"/>
-        <circle cx="16" cy="18" r="1.6"/><circle cx="28" cy="18" r="1.6"/><circle cx="40" cy="18" r="1.6"/><circle cx="52" cy="18" r="1.6"/><circle cx="64" cy="18" r="1.6"/><circle cx="76" cy="18" r="1.6"/>
-        <circle cx="10" cy="28" r="1.6"/><circle cx="22" cy="28" r="1.6"/><circle cx="34" cy="28" r="1.6"/><circle cx="46" cy="28" r="1.6"/><circle cx="58" cy="28" r="1.6"/><circle cx="70" cy="28" r="1.6"/><circle cx="82" cy="28" r="1.6"/>
-        <circle cx="16" cy="38" r="1.6"/><circle cx="28" cy="38" r="1.6"/><circle cx="40" cy="38" r="1.6"/><circle cx="52" cy="38" r="1.6"/><circle cx="64" cy="38" r="1.6"/><circle cx="76" cy="38" r="1.6"/>
+        <!-- linha y=12 -->
+        <circle cx="10" cy="10" r="2"/><circle cx="34" cy="10" r="2"/><circle cx="58" cy="10" r="2"/>
+        <circle cx="82" cy="10" r="2"/><circle cx="106" cy="10" r="2"/><circle cx="130" cy="10" r="2"/>
+        <!-- linha y=30 -->
+        <circle cx="22" cy="30" r="2"/><circle cx="46" cy="30" r="2"/><circle cx="70" cy="30" r="2"/>
+        <circle cx="94" cy="30" r="2"/><circle cx="118" cy="30" r="2"/><circle cx="142" cy="30" r="2"/>
+        <!-- linha y=48 -->
+        <circle cx="10" cy="48" r="2"/><circle cx="34" cy="48" r="2"/><circle cx="58" cy="48" r="2"/>
+        <circle cx="82" cy="48" r="2"/><circle cx="106" cy="48" r="2"/><circle cx="130" cy="48" r="2"/>
+        <!-- linha y=66 -->
+        <circle cx="22" cy="66" r="2"/><circle cx="46" cy="66" r="2"/><circle cx="70" cy="66" r="2"/>
+        <circle cx="94" cy="66" r="2"/><circle cx="118" cy="66" r="2"/><circle cx="142" cy="66" r="2"/>
       </g>
     </g>
 
-    <circle cx="0" cy="178" r="5" fill="#22D3EE" opacity=".7"/>
-  </g>
-
-  <!-- ============ Texto centralizado ============ -->
-  <g font-family="'Archivo', system-ui, sans-serif" text-anchor="middle">
-    <!-- Linha única: SOCIAL MARKETING EUA -->
-    <text x="360" y="280" font-size="48" font-weight="800" fill="#F2F4F7" letter-spacing="3">SOCIAL MARKETING <tspan fill="url(#cyanText)" font-weight="900">EUA</tspan></text>
-    <!-- Linha decorativa -->
-    <rect x="320" y="298" width="80" height="3" rx="1.5" fill="#22D3EE"/>
-    <!-- Subtítulo -->
-    <text x="360" y="328" font-size="13" font-weight="600" fill="#8B93A5" letter-spacing="5" font-family="'Inter', system-ui, sans-serif">CAPTAÇÃO DE CLIENTES NOS EUA</text>
+    <!-- Pequeno glow cyan atrás, sutil -->
+    <ellipse cx="0" cy="120" rx="320" ry="14" fill="#22D3EE" opacity=".06"/>
   </g>
 </svg>
