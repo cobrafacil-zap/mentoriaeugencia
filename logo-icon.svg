@@ -12,39 +12,46 @@
     <linearGradient id="usNavy" x1="0" x2="0" y1="0" y2="1">
       <stop offset="0" stop-color="#3B5A9A"/><stop offset="1" stop-color="#2A4275"/>
     </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="2" result="off"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".4"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="circleClip">
+      <circle cx="100" cy="100" r="96"/>
+    </clipPath>
   </defs>
 
   <!-- Fundo circular dark -->
   <circle cx="100" cy="100" r="96" fill="#0B0F1A" stroke="#242D40" stroke-width="2"/>
 
-  <!-- Mastro centralizado -->
-  <rect x="98" y="22" width="4" height="120" rx="2" fill="#A9B0FF"/>
-  <circle cx="100" cy="22" r="5" fill="#22D3EE"/>
+  <!-- Conteúdo clipado ao círculo -->
+  <g clip-path="url(#circleClip)">
 
-  <!-- Bandeira BR (esquerda) -->
-  <g transform="translate(20,30)">
-    <path d="M 0 0 Q 18 -3 36 0 Q 54 3 72 0 L 72 64 Q 54 67 36 64 Q 18 61 0 64 Z" fill="url(#brGrad)"/>
-    <polygon points="36,10 60,32 36,54 12,32" fill="url(#brYel)"/>
-    <circle cx="36" cy="32" r="11" fill="#2C4A82"/>
-  </g>
+    <!-- Bandeira Brasil (esquerda) — 90x64 -->
+    <g transform="translate(20,68)">
+      <path d="M 0 0 Q 22 -4 45 0 Q 67 4 90 0 L 90 64 Q 67 68 45 64 Q 22 60 0 64 Z"
+            fill="url(#brGrad)" filter="url(#shadow)"/>
+      <polygon points="45,12 72,32 45,52 18,32" fill="url(#brYel)"/>
+      <circle cx="45" cy="32" r="11" fill="#2C4A82"/>
+      <path d="M 38 30 Q 45 33 52 30" stroke="#F2F4F7" stroke-width="1" fill="none" stroke-linecap="round"/>
+      <path d="M 38 35 Q 45 33 52 35" stroke="#F2F4F7" stroke-width="1" fill="none" stroke-linecap="round"/>
+    </g>
 
-  <!-- Bandeira EUA (direita) -->
-  <g transform="translate(108,30)">
-    <path d="M 0 0 Q 16 -2 32 0 Q 48 2 64 0 L 64 56 Q 48 58 32 56 Q 16 54 0 56 Z" fill="url(#usRed)"/>
-    <path d="M 0 9 Q 16 7 32 9 Q 48 11 64 9 L 64 19 Q 48 21 32 19 Q 16 17 0 19 Z" fill="#F2F4F7"/>
-    <path d="M 0 28 Q 16 26 32 28 Q 48 30 64 28 L 64 38 Q 48 40 32 38 Q 16 36 0 38 Z" fill="#F2F4F7"/>
-    <path d="M 0 47 Q 16 45 32 47 Q 48 49 64 47 L 64 56 Q 48 58 32 56 Q 16 54 0 56 Z" fill="#F2F4F7"/>
-    <path d="M 0 0 Q 16 -2 32 0 L 32 24 Q 16 26 0 24 Z" fill="url(#usNavy)"/>
-    <g fill="#F2F4F7">
-      <circle cx="5" cy="5" r="1"/><circle cx="11" cy="5" r="1"/><circle cx="17" cy="5" r="1"/><circle cx="23" cy="5" r="1"/><circle cx="29" cy="5" r="1"/>
-      <circle cx="8" cy="11" r="1"/><circle cx="14" cy="11" r="1"/><circle cx="20" cy="11" r="1"/><circle cx="26" cy="11" r="1"/>
-      <circle cx="5" cy="17" r="1"/><circle cx="11" cy="17" r="1"/><circle cx="17" cy="17" r="1"/><circle cx="23" cy="17" r="1"/><circle cx="29" cy="17" r="1"/>
+    <!-- Bandeira EUA (direita) — 80x56 -->
+    <g transform="translate(120,72)">
+      <path d="M 0 0 Q 18 -3 36 0 Q 54 3 72 0 L 80 -1 L 80 56 Q 72 58 54 56 Q 36 60 18 56 Q 0 52 0 56 L 0 0 Z"
+            fill="url(#usRed)" filter="url(#shadow)"/>
+      <path d="M 0 12 Q 18 9 36 12 Q 54 15 72 12 L 80 11 L 80 22 Q 72 24 54 22 Q 36 26 18 22 Q 0 18 0 22 Z" fill="#F2F4F7"/>
+      <path d="M 0 36 Q 18 33 36 36 Q 54 39 72 36 L 80 35 L 80 46 Q 72 48 54 46 Q 36 50 18 46 Q 0 42 0 46 Z" fill="#F2F4F7"/>
+      <!-- Canton -->
+      <path d="M 0 0 Q 18 -3 36 0 Q 45 -1 50 0 L 50 26 Q 45 27 36 26 Q 18 30 0 26 Z" fill="url(#usNavy)"/>
+      <g fill="#F2F4F7">
+        <circle cx="6" cy="6" r="1.2"/><circle cx="14" cy="6" r="1.2"/><circle cx="22" cy="6" r="1.2"/><circle cx="30" cy="6" r="1.2"/><circle cx="38" cy="6" r="1.2"/>
+        <circle cx="10" cy="14" r="1.2"/><circle cx="18" cy="14" r="1.2"/><circle cx="26" cy="14" r="1.2"/><circle cx="34" cy="14" r="1.2"/><circle cx="42" cy="14" r="1.2"/>
+        <circle cx="6" cy="22" r="1.2"/><circle cx="14" cy="22" r="1.2"/><circle cx="22" cy="22" r="1.2"/><circle cx="30" cy="22" r="1.2"/><circle cx="38" cy="22" r="1.2"/>
+      </g>
     </g>
   </g>
-
-  <!-- Bolinha embaixo do mastro -->
-  <circle cx="100" cy="140" r="3" fill="#22D3EE" opacity=".7"/>
-
-  <!-- Texto "SM" centralizado embaixo -->
-  <text x="100" y="180" font-family="'Archivo', system-ui, sans-serif" font-size="20" font-weight="900" fill="#22D3EE" text-anchor="middle" letter-spacing="3">SM</text>
 </svg>
