@@ -21,10 +21,10 @@ fbq('track', 'PageView');
 src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
-<title>Mentoria Eugência — Capte seus próprios clientes nos EUA</title>
-<meta name="description" content="Aprenda a captar clientes nos Estados Unidos com Google Ads, Google Guaranteed, Google Local Services e Meta Ads — sem depender de agência. Mentoria Eugência.">
-<meta property="og:title" content="Mentoria Eugência — Capte seus próprios clientes nos EUA">
-<meta property="og:description" content="Google Ads, Google Guaranteed, Local Services e Meta Ads: aprenda a colocar sua empresa na frente de quem já está procurando por você.">
+<title>Eugência — Tráfego pago que capta clientes nos EUA</title>
+<meta name="description" content="Serviço de tráfego pago para brasileiros nos EUA: Google Ads, Google Guaranteed, Google Local Services, Meta Ads e Call Center. A gente busca clientes novos para o seu negócio de serviço.">
+<meta property="og:title" content="Eugência — Tráfego pago que capta clientes nos EUA">
+<meta property="og:description" content="Google Ads, Google Guaranteed, Local Services, Meta Ads e Call Center — a gente coloca sua empresa na frente de quem está procurando agora.">
 <meta property="og:type" content="website">
 <link rel="icon" type="image/png" href="logo-icon.png">
 <link rel="apple-touch-icon" href="logo-icon.png">
@@ -134,7 +134,7 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   }
   .skip-link:focus{ left:0; }
 
-  /* ===================== BANDEIRA FUSÃO BR+EUA (permanente no hero, ao vento) ===================== */
+  /* ===================== BANDEIRA FUSÃO BR+EUA ===================== */
   .hero-flag-wrap{
     position:relative;
     display:flex; align-items:flex-end; justify-content:center;
@@ -274,7 +274,7 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
     .sticky-cta.show + .whatsapp-float{ bottom:92px; }
   }
 
-  /* ===================== WHATSAPP MEGA CTA (seção #contato) ===================== */
+  /* ===================== WHATSAPP MEGA CTA ===================== */
   .whatsapp-mega{
     position:relative;
     display:flex; flex-direction:column; align-items:center; justify-content:center;
@@ -448,7 +448,7 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
     border-bottom:2px solid var(--cyan);
     padding:0 6px 1px;
   }
-  .hero-sub{ font-size:clamp(15.5px,1.8vw,18px); color:var(--text-muted); max-width:600px; margin:22px auto 0; }
+  .hero-sub{ font-size:clamp(15.5px,1.8vw,18px); color:var(--text-muted); max-width:640px; margin:22px auto 0; }
   .hero-ctas{ margin-top:34px; display:flex; flex-wrap:wrap; gap:14px; align-items:center; justify-content:center; }
 
   .hero-badges{ margin-top:40px; display:flex; flex-wrap:wrap; gap:10px; align-items:center; justify-content:center; }
@@ -461,7 +461,7 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   .gbadge.strong{ border-color:var(--cyan-dim); background:var(--cyan-soft); color:var(--cyan); }
   .gbadge .dot{ width:6px; height:6px; border-radius:50%; background:currentColor; }
 
-  /* ===================== PARA QUEM É (chips) ===================== */
+  /* ===================== NICHE CHIPS ===================== */
   .niche-row{ display:flex; flex-wrap:wrap; gap:10px; justify-content:flex-start; margin-top:8px; }
   .niche-chip{
     display:inline-flex; align-items:center; gap:8px; font-size:13.5px; font-weight:600; color:var(--text);
@@ -547,7 +547,7 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   .eugencia-foot b{ color:var(--cyan); }
   @keyframes blink{ 0%,100%{opacity:1;} 50%{opacity:.25;} }
 
-  /* ===================== PILARES (6) ===================== */
+  /* ===================== SERVIÇOS (cards) ===================== */
   .pillars-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
   @media (max-width:860px){ .pillars-grid{ grid-template-columns:repeat(2,1fr);} }
   @media (max-width:560px){ .pillars-grid{ grid-template-columns:1fr;} }
@@ -559,10 +559,30 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   .pillar-num{ font-family:var(--f-display); font-weight:800; font-size:12px; color:var(--cyan); letter-spacing:.08em; margin-bottom:12px; display:block; }
   .pillar-card h4{ font-size:16.5px; font-weight:700; margin-bottom:8px; }
   .pillar-card p{ font-size:13.5px; color:var(--text-muted); margin:0; line-height:1.55; }
+  .pillar-icon{
+    display:inline-flex; align-items:center; justify-content:center;
+    width:42px; height:42px; border-radius:12px;
+    background:var(--cyan-soft); border:1px solid var(--cyan-dim); color:var(--cyan);
+    margin-bottom:14px;
+  }
+  .pillar-icon svg{ width:22px; height:22px; }
 
-  /* ===================== MÉTODO + MENTORA ===================== */
-  .method-intro{ max-width:680px; margin:0 0 48px; color:var(--text-muted); font-size:16.5px; }
-  .method-intro b{ color:var(--text); }
+  /* ===================== PROCESSO ===================== */
+  .process-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:14px; margin-top:8px; }
+  @media (max-width:900px){ .process-grid{ grid-template-columns:repeat(2,1fr); } }
+  @media (max-width:480px){ .process-grid{ grid-template-columns:1fr; } }
+  .process-step{
+    background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-m);
+    padding:22px 20px; position:relative;
+  }
+  .process-step__num{
+    font-family:var(--f-display); font-weight:900; font-size:28px; color:var(--cyan);
+    line-height:1; margin-bottom:8px; display:block;
+  }
+  .process-step h4{ font-size:15px; font-weight:700; margin-bottom:6px; }
+  .process-step p{ font-size:13px; color:var(--text-muted); margin:0; line-height:1.55; }
+
+  /* ===================== QUEM ESTÁ POR TRÁS ===================== */
   .mentor{ display:grid; grid-template-columns:.65fr 1.35fr; gap:48px; align-items:center; }
   @media (max-width:860px){ .mentor{ grid-template-columns:1fr; } }
   .mentor-photo{
@@ -580,76 +600,6 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   .mentor-field{ margin-top:16px; }
   .mentor-field .f-label{ font-size:11px; font-weight:700; color:var(--cyan); letter-spacing:.1em; text-transform:uppercase; margin-bottom:8px; display:block; }
   .mentor-field p{ color:var(--text-muted); border-left:2px solid var(--cyan-dim); padding:2px 0 2px 16px; font-size:14.5px; margin:0; }
-
-  /* ===================== FORMULÁRIO DE CONTATO ===================== */
-  .contact-wrap{ max-width:560px; margin:0 auto; }
-  .contact-form{
-    background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-l);
-    padding:36px; display:flex; flex-direction:column; gap:20px;
-  }
-  @media (max-width:560px){ .contact-form{ padding:26px 22px; } }
-  .form-row{ display:flex; flex-direction:column; }
-  .form-row .f-label{ font-size:11px; font-weight:700; color:var(--cyan); letter-spacing:.1em; text-transform:uppercase; margin-bottom:8px; display:block; }
-  .contact-form input, .contact-form select{
-    font-family:var(--f-body); font-size:14.5px; color:var(--text);
-    background:var(--bg-alt); border:1px solid var(--border-soft); border-radius:var(--radius-s);
-    padding:13px 16px; outline:none; width:100%;
-    transition:border-color .2s var(--ease), box-shadow .2s var(--ease);
-  }
-  .contact-form input::placeholder{ color:var(--text-faint); }
-  .contact-form input:focus, .contact-form select:focus{
-    border-color:var(--cyan-dim); box-shadow:0 0 0 3px var(--cyan-soft);
-  }
-  .contact-form select{ appearance:none; -webkit-appearance:none;
-    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%235B6478' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
-    background-repeat:no-repeat; background-position:right 14px center; padding-right:38px;
-  }
-  .form-status{ min-height:18px; text-align:center; font-size:13px; margin:0; }
-  .form-honeypot{ position:absolute; left:-9999px; width:1px; height:1px; opacity:0; pointer-events:none; }
-
-  /* ===== PAINEL DE CARREGAMENTO ===== */
-  .loading-panel{
-    display:none; flex-direction:column; align-items:center; justify-content:center; gap:18px; text-align:center;
-    background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-l);
-    padding:60px 36px;
-  }
-  .loading-panel.show{ display:flex; animation:panelFadeIn .4s var(--ease); }
-  .loading-spinner{
-    width:52px; height:52px; border-radius:50%;
-    border:4px solid var(--border-soft);
-    border-top-color:var(--cyan); border-right-color:var(--us-red);
-    animation:spin .85s linear infinite;
-  }
-  @keyframes spin{ to{ transform:rotate(360deg); } }
-  .loading-text{ color:var(--text-muted); font-size:14.5px; margin:0; }
-
-  .thank-you-panel{
-    display:none; flex-direction:column; align-items:center; text-align:center;
-    background:linear-gradient(180deg, var(--surface), var(--surface-2));
-    border:1px solid var(--cyan-dim); border-radius:var(--radius-l);
-    padding:40px 36px; box-shadow:0 40px 90px -30px var(--cyan-glow);
-  }
-  .thank-you-panel.show{ display:flex; animation:panelFadeIn .5s var(--ease); }
-  @keyframes panelFadeIn{ from{ opacity:0; transform:translateY(14px) scale(.97); } to{ opacity:1; transform:translateY(0) scale(1); } }
-  @media (max-width:560px){ .thank-you-panel{ padding:30px 22px; } .loading-panel{ padding:46px 22px; } }
-
-  .thank-you-check{ width:64px; height:64px; margin-bottom:14px; }
-  .thank-you-check svg{ width:100%; height:100%; }
-  .check-circle{ stroke:var(--cyan); stroke-width:3; stroke-dasharray:145; stroke-dashoffset:145; animation:checkCircle .5s var(--ease) forwards; }
-  .check-mark{ stroke:var(--cyan); stroke-width:4; stroke-linecap:round; stroke-linejoin:round; stroke-dasharray:34; stroke-dashoffset:34; animation:checkMark .35s var(--ease) .45s forwards; }
-  @keyframes checkCircle{ to{ stroke-dashoffset:0; } }
-  @keyframes checkMark{ to{ stroke-dashoffset:0; } }
-
-  .thank-you-badge{
-    display:inline-flex; align-items:center; gap:8px; font-size:11.5px; font-weight:700; letter-spacing:.1em; text-transform:uppercase;
-    color:var(--on-cyan); background:var(--cyan); padding:8px 16px; border-radius:100px; margin-bottom:18px;
-  }
-  .thank-you-title{ font-size:clamp(20px,2.6vw,26px); max-width:420px; margin:0 auto; }
-  .thank-you-title .cyan{ color:var(--cyan); }
-  .thank-you-text{ color:var(--text-muted); font-size:14.5px; max-width:400px; margin:14px auto 0; }
-  @media (prefers-reduced-motion: reduce){
-    .loading-spinner{ animation-duration:1.2s; }
-  }
 
   /* ===================== DEPOIMENTOS ===================== */
   .demo-banner{
@@ -678,7 +628,7 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   }
   @media (max-width:600px){ .offer-card{ padding:34px 22px; } }
   .offer-card::before{
-    content:'MENTORIA COMPLETA'; position:absolute; top:-13px; left:50%; translate:-50% 0;
+    content:'SERVIÇO COMPLETO'; position:absolute; top:-13px; left:50%; translate:-50% 0;
     background:var(--cyan); color:var(--on-cyan); font-size:11px; font-weight:700; letter-spacing:.08em;
     padding:6px 16px; border-radius:100px;
   }
@@ -697,7 +647,7 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   }
   .offer-grid svg{ color:var(--cyan); flex-shrink:0; }
 
-  /* ===================== FAQ + CTA ===================== */
+  /* ===================== FAQ ===================== */
   .faq-list{ max-width:760px; margin:0 auto; display:flex; flex-direction:column; gap:10px; }
   .faq-item{ background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-m); overflow:hidden; }
   .faq-item summary{
@@ -716,7 +666,7 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   .faq-item .faq-a{ padding:0 24px 22px; color:var(--text-muted); font-size:14px; line-height:1.7; max-width:640px; }
 
   .faq-cta{ text-align:center; margin-top:56px; padding-top:48px; border-top:1px solid var(--border-soft); }
-  .faq-cta h3{ font-size:clamp(24px,3.6vw,34px); max-width:640px; margin:0 auto; }
+  .faq-cta h3{ font-size:clamp(24px,3.6vw,34px); max-width:720px; margin:0 auto; }
   .faq-cta h3 .cyan{ color:var(--cyan); }
   .faq-cta p{ color:var(--text-muted); font-size:15.5px; margin:16px auto 30px; max-width:520px; }
 
@@ -799,14 +749,14 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
 <!-- ===================== HEADER ===================== -->
 <header class="site-header">
   <div class="container">
-    <a href="#hero" class="brand" aria-label="Método Eugência — página inicial">
-      <span class="brand-badge"><img src="logo-icon.png" alt="Método Eugência" loading="eager"></span>
-      <span class="brand-name">MÉTODO EUGÊNCIA<small>Marketing que gera resultados</small></span>
+    <a href="#hero" class="brand" aria-label="Eugência — página inicial">
+      <span class="brand-badge"><img src="logo-icon.png" alt="Eugência" loading="eager"></span>
+      <span class="brand-name">EUGÊNCIA<small>Tráfego pago que capta clientes</small></span>
     </a>
     <nav class="nav-links" aria-label="Navegação principal">
       <a href="#dor">O problema</a>
-      <a href="#aprender">O que você aprende</a>
-      <a href="#metodo">Método</a>
+      <a href="#servicos">Serviços</a>
+      <a href="#processo">Como funciona</a>
       <a href="#faq">Dúvidas</a>
     </nav>
     <div class="header-cta">
@@ -814,7 +764,7 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
         <svg class="icon-sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v2.4M12 19.1v2.4M4.9 4.9l1.7 1.7M17.4 17.4l1.7 1.7M2.5 12h2.4M19.1 12h2.4M4.9 19.1l1.7-1.7M17.4 6.6l1.7-1.7"/></svg>
         <svg class="icon-moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.5 14.7A8.5 8.5 0 1 1 9.3 3.5a7 7 0 0 0 11.2 11.2Z"/></svg>
       </button>
-      <a href="#contato" class="btn btn-primary">Quero entrar</a>
+      <a href="#contato" class="btn btn-primary">Quero clientes novos</a>
     </div>
   </div>
 </header>
@@ -825,25 +775,25 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   <section class="hero">
     <div class="grid-texture" aria-hidden="true"></div>
     <div class="container hero-inner">
-      <img src="logo-full.png" alt="Método Eugência" class="hero-logo">
+      <img src="logo-full.png" alt="Eugência" class="hero-logo">
       <span class="flag-chip">🇧🇷 Feito por brasileiros · 🇺🇸 Para quem empreende nos EUA</span>
-      <h1>Coloque sua empresa na frente de quem já está <span class="cyan">procurando pelo seu serviço</span> nos EUA.</h1>
-      <p class="hero-sub">Mentoria prática para donos brasileiros de companias de serviço aqui nos EUA aprenderem a captar seus próprios clientes com <span class="gg-highlight">Google Guaranteed</span>, Google Ads, Google Local Services e Meta Ads — sem depender de agência.</p>
+      <h1>A gente <span class="cyan">capta clientes novos</span> para o seu negócio de serviço nos EUA — todos os dias.</h1>
+      <p class="hero-sub">Serviço completo de <span class="gg-highlight">Google Ads</span>, Google Guaranteed, Google Local Services, Meta Ads e Call Center bilíngue. Você foca no serviço. A gente coloca leads qualificados no seu WhatsApp.</p>
       <div class="hero-ctas">
-        <a href="#contato" class="btn btn-primary">Quero ativar o modo eugência</a>
-        <a href="#dor" class="btn btn-ghost">Ver o problema real</a>
+        <a href="#contato" class="btn btn-primary">Quero captar clientes agora</a>
+        <a href="#dor" class="btn btn-ghost">Ver o problema</a>
       </div>
       <div class="hero-badges">
-        <span class="gbadge strong"><span class="dot"></span>Google Guaranteed</span>
-        <span class="gbadge">Google Ads</span>
+        <span class="gbadge strong"><span class="dot"></span>Google Ads</span>
+        <span class="gbadge">Google Guaranteed</span>
         <span class="gbadge">Google Local Services</span>
         <span class="gbadge">Meta Ads</span>
-        <span class="gbadge">Inteligência Artificial</span>
+        <span class="gbadge">Call Center</span>
       </div>
     </div>
   </section>
 
-  <!-- ===================== CTA WHATSAPP (topo, antes de "Para quem é") ===================== -->
+  <!-- ===================== CTA WHATSAPP (topo) ===================== -->
   <section class="section" id="whatsapp-topo" style="padding-top:28px; padding-bottom:28px; border-top:none;">
     <div class="container">
       <div class="whatsapp-mega reveal">
@@ -853,13 +803,13 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
             <span class="whatsapp-mega__ring" aria-hidden="true"></span>
             <span class="whatsapp-mega__ring" aria-hidden="true"></span>
             <span class="whatsapp-mega__ring" aria-hidden="true"></span>
-            <span class="whatsapp-mega__bubble" aria-hidden="true">Oi! 👋 Quero saber mais</span>
+            <span class="whatsapp-mega__bubble" aria-hidden="true">Quero mais clientes 👋</span>
             <span class="whatsapp-mega__btn" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.77.46 3.45 1.35 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.11.11-1.79-.11-.41-.13-.94-.3-1.62-.6-2.85-1.23-4.71-4.1-4.85-4.29-.14-.19-1.16-1.54-1.16-2.94s.73-2.09 1-2.38c.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.81 2.01.88 2.16.07.15.12.32.02.51-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.29.29-.12.57.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.18-.27.37-.22.62-.13.26.09 1.63.77 1.91.91.28.14.47.21.53.33.07.12.07.68-.17 1.35Z"/></svg>
             </span>
           </span>
           <span class="whatsapp-mega__cta-text">Falar no <span class="cyan">WhatsApp</span> agora</span>
-          <span class="whatsapp-mega__sub">Resposta rápida · Sem compromisso</span>
+          <span class="whatsapp-mega__sub">Resposta rápida · Diagnóstico gratuito</span>
         </a>
       </div>
     </div>
@@ -870,7 +820,7 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
     <div class="container">
       <div class="head-block reveal">
         <span class="label-tag">Para quem é</span>
-        <h2 class="section-title">Feito para donos de negócios de serviço nos EUA</h2>
+        <h2 class="section-title">Donos brasileiros de negócio de serviço nos EUA</h2>
         <div class="niche-row">
           <span class="niche-chip">🏠 House Cleaning</span>
           <span class="niche-chip">🔨 Construction</span>
@@ -878,43 +828,45 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
           <span class="niche-chip">🏡 Roofing</span>
           <span class="niche-chip">🌿 Landscaping</span>
           <span class="niche-chip">🛠 Remodeling</span>
+          <span class="niche-chip">🚚 Moving</span>
+          <span class="niche-chip">❄️ HVAC</span>
         </div>
       </div>
 
       <div class="head-block reveal" style="margin-bottom:0;">
         <span class="label-tag">O problema real</span>
-        <h2 class="section-title">Quanto você já pagou por um marketing que nunca <span class="accent">entendeu</span>?</h2>
-        <p class="section-lede">Se algum sintoma abaixo é familiar, o problema não é falta de investimento. É falta de controle.</p>
+        <h2 class="section-title">Você trabalha o dia inteiro no serviço — e <span class="accent">depende de alguém</span> para ter cliente novo</h2>
+        <p class="section-lede">Se algum sintoma abaixo é familiar, o problema não é o seu serviço. É a falta de captação ativa.</p>
       </div>
 
       <div class="diagnostic reveal">
         <div class="diagnostic-head">
           <span class="live">sintoma</span>
-          <span>diagnóstico eugência</span>
+          <span>com a eugência</span>
         </div>
         <div class="diag-row">
-          <div class="diag-symptom"><b>sintoma</b>A agência diz que está trabalhando. Você não sabe em quê.</div>
+          <div class="diag-symptom"><b>sintoma</b>Você depende de indicação e boca a boca. Quando para, o telefone para.</div>
           <div class="diag-arrow">→</div>
-          <div class="diag-fix"><b>eugência</b>Você acompanha exatamente onde o dinheiro é investido.</div>
+          <div class="diag-fix"><b>eugência</b>Leads chegando todo dia vindos de Google e Meta Ads.</div>
         </div>
         <div class="diag-row">
-          <div class="diag-symptom"><b>sintoma</b>Os leads caem de repente e ninguém explica o motivo.</div>
+          <div class="diag-symptom"><b>sintoma</b>A agenda tem buraco na semana e você não sabe o que fazer pra preencher.</div>
           <div class="diag-arrow">→</div>
-          <div class="diag-fix"><b>eugência</b>Você entende o que está por trás de cada campanha.</div>
+          <div class="diag-fix"><b>eugência</b>Campanhas otimizadas para gerar serviço novo todos os dias.</div>
         </div>
         <div class="diag-row">
-          <div class="diag-symptom"><b>sintoma</b>Você paga o Google Ads, mas nunca entrou na plataforma.</div>
+          <div class="diag-symptom"><b>sintoma</b>Você paga anúncio, mas nunca sabe quantos clientes de fato vieram dele.</div>
           <div class="diag-arrow">→</div>
-          <div class="diag-fix"><b>eugência</b>Você aprende a estruturar e ler sua própria campanha.</div>
+          <div class="diag-fix"><b>eugência</b>Relatório claro: quantos leads, quanto custou cada um.</div>
         </div>
         <div class="diag-row">
-          <div class="diag-symptom"><b>sintoma</b>Se cancelar o contrato amanhã, seu marketing para junto.</div>
+          <div class="diag-symptom"><b>sintoma</b>Os leads que chegam não fecham porque a equipe não dá conta de ligar/responder.</div>
           <div class="diag-arrow">→</div>
-          <div class="diag-fix"><b>eugência</b>Sua captação continua funcionando com ou sem terceiros.</div>
+          <div class="diag-fix"><b>eugência</b>Call center bilíngue qualifica e agenda pra você.</div>
         </div>
       </div>
 
-      <p class="closing-line reveal">O problema não é contratar uma agência. <b>É <span class="cyan">depender 100%</span> dela.</b></p>
+      <p class="closing-line reveal">Captação não é sorte. <b>É <span class="cyan">tráfego pago bem feito</span>, todos os dias.</b></p>
     </div>
   </section>
 
@@ -927,61 +879,121 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
       </div>
       <div class="eugencia-panel reveal">
         <div class="eugencia-top">
-          <div class="eugencia-title"><span class="dot"></span>painel_marketing.status</div>
+          <div class="eugencia-title"><span class="dot"></span>painel_captacao.status</div>
           <span class="status-pill">Ativado</span>
         </div>
         <div class="eugencia-grid">
           <div class="eugencia-row">
-            <div class="label"><b>Agência</b><span>controlando sozinha o seu marketing</span></div>
+            <div class="label"><b>Agenda vazia</b><span>sem previsão de cliente novo</span></div>
+            <div class="switch on"></div>
+          </div>
+          <div class="eugencia-row">
+            <div class="label"><b>Leads chegando</b><span>toda semana, todo mês</span></div>
+            <div class="switch on"></div>
+          </div>
+          <div class="eugencia-row">
+            <div class="label"><b>Equipe sobrecarregada</b><span>tentando responder todo mundo</span></div>
             <div class="switch"></div>
           </div>
           <div class="eugencia-row">
-            <div class="label"><b>Controle</b><span>você decide onde investir</span></div>
-            <div class="switch on"></div>
-          </div>
-          <div class="eugencia-row">
-            <div class="label"><b>Conhecimento</b><span>você entende de onde vêm os clientes</span></div>
-            <div class="switch on"></div>
-          </div>
-          <div class="eugencia-row">
-            <div class="label"><b>Captação</b><span>funcionando mesmo sem terceiros</span></div>
+            <div class="label"><b>Call Center Eugência</b><span>qualifica, agenda e entrega no seu WhatsApp</span></div>
             <div class="switch on"></div>
           </div>
         </div>
-        <p class="eugencia-foot">Agora <b>você controla</b> o marketing da sua própria empresa.</p>
+        <p class="eugencia-foot">Agora <b>você recebe clientes prontos para fechar</b>, não só "interessados".</p>
       </div>
     </div>
   </section>
 
-  <!-- ===================== O QUE VOCÊ VAI APRENDER ===================== -->
-  <section class="section" id="aprender">
+  <!-- ===================== SERVIÇOS ===================== -->
+  <section class="section" id="servicos">
     <div class="container">
       <div class="head-block reveal">
-        <span class="label-tag">O conteúdo</span>
-        <h2 class="section-title">O que você vai <span class="accent">aprender</span></h2>
-        <p class="section-lede">6 grandes pilares, direto ao ponto — sem enrolação e sem precisar virar especialista.</p>
+        <span class="label-tag">O que a gente faz</span>
+        <h2 class="section-title">Serviço completo de <span class="accent">captação nos EUA</span></h2>
+        <p class="section-lede">Você não precisa entender de marketing. Você só precisa aprovar e atender os clientes que a gente leva até você.</p>
       </div>
       <div class="pillars-grid reveal">
-        <div class="pillar-card"><span class="pillar-num">01</span><h4>Google Ads</h4><p>Como criar campanhas para aparecer no momento em que alguém procura pelo seu serviço.</p></div>
-        <div class="pillar-card"><span class="pillar-num">02</span><h4>Google Guaranteed</h4><p>Como trabalhar dentro do ecossistema de serviços locais do Google e entender os requisitos aplicáveis.</p></div>
-        <div class="pillar-card"><span class="pillar-num">03</span><h4>Meta Ads</h4><p>Como usar Facebook e Instagram para gerar demanda e novas oportunidades.</p></div>
-        <div class="pillar-card"><span class="pillar-num">04</span><h4>Google Local Services</h4><p>Como estruturar a presença local da empresa para aparecer mais para clientes da região.</p></div>
-        <div class="pillar-card"><span class="pillar-num">05</span><h4>Posicionamento de Marca</h4><p>Como parecer profissional, confiável e diferente de dezenas de concorrentes.</p></div>
-        <div class="pillar-card"><span class="pillar-num">06</span><h4>Inteligência Artificial</h4><p>Como usar IA para criar conteúdo, anúncios, estratégias e acelerar o marketing.</p></div>
+        <div class="pillar-card">
+          <span class="pillar-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+          </span>
+          <span class="pillar-num">01</span>
+          <h4>Google Ads</h4>
+          <p>Sua empresa aparece no topo do Google na hora em que alguém pesquisa pelo seu serviço na sua região.</p>
+        </div>
+        <div class="pillar-card">
+          <span class="pillar-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 9 8 11 4.5-2 8-6 8-11V5l-8-3z"/><path d="m9 12 2 2 4-4"/></svg>
+          </span>
+          <span class="pillar-num">02</span>
+          <h4>Google Guaranteed</h4>
+          <p>Selo de verificação do Google que transmite confiança e faz você aparecer com destaque nos serviços locais.</p>
+        </div>
+        <div class="pillar-card">
+          <span class="pillar-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-7 8-13a8 8 0 1 0-16 0c0 6 8 13 8 13z"/><circle cx="12" cy="9" r="3"/></svg>
+          </span>
+          <span class="pillar-num">03</span>
+          <h4>Google Local Services</h4>
+          <p>Anúncios locais segmentados por cidade e bairro, com lead direto no seu telefone e pagamento por lead.</p>
+        </div>
+        <div class="pillar-card">
+          <span class="pillar-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </span>
+          <span class="pillar-num">04</span>
+          <h4>Meta Ads (Facebook + Instagram)</h4>
+          <p>Campanhas segmentadas por bairro, idioma e perfil para gerar demanda onde o Google Ads não alcança.</p>
+        </div>
+        <div class="pillar-card">
+          <span class="pillar-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92V21a1 1 0 0 1-1.11 1 19.86 19.86 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.86 19.86 0 0 1 3.18 4.11 1 1 0 0 1 4.18 3h4.09a1 1 0 0 1 1 .75l1 4a1 1 0 0 1-.27 1l-1.7 1.7a16 16 0 0 0 6 6l1.7-1.7a1 1 0 0 1 1-.27l4 1a1 1 0 0 1 .75 1z"/></svg>
+          </span>
+          <span class="pillar-num">05</span>
+          <h4>Call Center Bilíngue</h4>
+          <p>Equipe em inglês e português que atende, qualifica e agenda o lead direto na sua agenda.</p>
+        </div>
+        <div class="pillar-card">
+          <span class="pillar-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m7 14 4-4 4 4 5-5"/></svg>
+          </span>
+          <span class="pillar-num">06</span>
+          <h4>Relatórios + Otimização</h4>
+          <p>Você recebe relatório claro toda semana: leads, custo, conversão. A gente otimiza em tempo real.</p>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ===================== MÉTODO ===================== -->
-  <section class="section" id="metodo">
+  <!-- ===================== COMO FUNCIONA ===================== -->
+  <section class="section" id="processo">
     <div class="container">
       <div class="head-block center reveal">
-        <span class="label-tag" style="justify-content:center;">O método</span>
-        <h2 class="section-title">Menos dependência. <span class="accent">Mais controle.</span></h2>
+        <span class="label-tag" style="justify-content:center;">Como funciona</span>
+        <h2 class="section-title">Em até <span class="accent">7 dias</span> sua empresa está captando</h2>
       </div>
-      <p class="method-intro reveal" style="text-align:center; margin-left:auto; margin-right:auto;">O <b>Método Eugência</b> existe para brasileiros donos de negócio de serviço nos Estados Unidos — gente que já sabe construir, limpar, pintar, reformar. Aqui você aprende o marketing que realmente importa para o mercado americano, sem depender de ninguém para entender o que acontece com o seu próprio dinheiro.</p>
-      <div class="specialty-tags reveal" style="justify-content:center; margin-top:28px;">
-        <span>Google Ads</span><span>Google Guaranteed</span><span>Meta Ads</span><span>Posicionamento</span><span>Inteligência Artificial</span><span>Negócios Locais</span>
+      <div class="process-grid reveal">
+        <div class="process-step">
+          <span class="process-step__num">01</span>
+          <h4>Diagnóstico no WhatsApp</h4>
+          <p>A gente entende seu serviço, região, ticket médio e meta de clientes novos.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-step__num">02</span>
+          <h4>Plano de captação</h4>
+          <p>Definimos canais, verba e meta de leads por mês — sem pacotes prontos.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-step__num">03</span>
+          <h4>Campanhas no ar</h4>
+          <p>Criamos e subimos Google Ads, Local Services e Meta Ads da sua empresa.</p>
+        </div>
+        <div class="process-step">
+          <span class="process-step__num">04</span>
+          <h4>Leads no seu WhatsApp</h4>
+          <p>Call Center qualifica, agenda e entrega cliente pronto pra fechar.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -990,20 +1002,20 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   <section class="section" id="depoimentos">
     <div class="container">
       <div class="head-block center reveal">
-        <span class="label-tag" style="justify-content:center;">Quem já passou pela eugência</span>
-        <h2 class="section-title">O que os alunos <span class="accent">dizem</span></h2>
+        <span class="label-tag" style="justify-content:center;">Quem já capta com a gente</span>
+        <h2 class="section-title">O que nossos <span class="accent">clientes</span> dizem</h2>
       </div>
       <div class="testi-grid reveal">
         <div class="testi-card">
-          <div><span class="quote-mark">"</span><p>Eu sempre paguei alguém para cuidar do meu marketing e nunca entendia o que estava acontecendo. Depois da Eugência comecei a entender de onde vinham os leads e passei a acompanhar minhas próprias campanhas.</p></div>
+          <div><span class="quote-mark">"</span><p>Antes da Eugência eu dependia só de indicação. Hoje recebo leads toda semana vindos do Google e minha agenda tá sempre cheia.</p></div>
           <div class="testi-foot"><span class="testi-avatar"><img src="testi-helena.png" alt="Cliente Helena House Cleaning"></span><span>Helena House Cleaning — Pampa, EUA</span></div>
         </div>
         <div class="testi-card">
-          <div><span class="quote-mark">"</span><p>Trabalho com construction há anos e nunca tinha entrado no Google Ads. Hoje sei montar uma campanha e entendo pra onde meu orçamento está indo.</p></div>
+          <div><span class="quote-mark">"</span><p>A gente já tinha tentado agência americana e não fechava. A Eugência montou Google Ads + Local Services e em 30 dias a agenda lotou.</p></div>
           <div class="testi-foot"><span class="testi-avatar"><img src="testi-hg.png" alt="Cliente H&amp;G Construction"></span><span>H&amp;G Construction — Boston, EUA</span></div>
         </div>
         <div class="testi-card">
-          <div><span class="quote-mark">"</span><p>O que mais mudou foi parar de depender de agência para saber se meu marketing estava funcionando. Consigo acompanhar tudo sozinho agora.</p></div>
+          <div><span class="quote-mark">"</span><p>O call center deles mudou tudo. Eles atendem em inglês, qualificam e só me passam cliente pronto pra fechar. Parei de perder lead.</p></div>
           <div class="testi-foot"><span class="testi-avatar"><img src="testi-lcs.png" alt="Cliente LCS Painting & Remodeling"></span><span>LCS Painting &amp; Remodeling — Seattle, EUA</span></div>
         </div>
       </div>
@@ -1015,41 +1027,41 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
     <div class="container">
       <div class="head-block center reveal">
         <span class="label-tag" style="justify-content:center;">A oferta</span>
-        <h2 class="section-title">Entre para a <span class="accent">Mentoria Eugência</span></h2>
+        <h2 class="section-title">Vamos captar <span class="accent">clientes novos</span> para o seu negócio</h2>
       </div>
       <div class="offer-wrap reveal">
         <div class="offer-card">
-          <h3 class="offer-title">Mentoria Eugência</h3>
-          <p class="offer-tagline">Menos dependência. Mais controle.</p>
+          <h3 class="offer-title">Serviço de Captação Eugência</h3>
+          <p class="offer-tagline">Google Ads · Local Services · Meta Ads · Call Center</p>
           <div class="offer-price">
-            <div class="p-old">De US$ 397</div>
-            <div class="p-value">U$ 197</div>
-            <div class="p-note">À vista ou parcelado no cartão</div>
+            <div class="p-note">A partir de</div>
+            <div class="p-value">U$ 497/mês</div>
+            <div class="p-note">+ verba de mídia (definida no plano) · Sem fidelidade longa</div>
           </div>
           <ul class="offer-grid">
-            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Módulos completos em vídeo</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Google Ads</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Google Guaranteed</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Google Local Services</li>
             <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Meta Ads</li>
-            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Posicionamento e Marca</li>
-            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Reviews</li>
-            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Inteligência Artificial</li>
+            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Call Center bilíngue</li>
+            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Otimização semanal</li>
+            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Relatórios claros</li>
+            <li><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M4 12l5 5L20 6" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>Suporte direto no WhatsApp</li>
           </ul>
-          <a href="#contato" class="btn btn-primary btn-block">Quero ativar o modo eugência</a>
-          <span class="btn-sub">20 vagas disponíveis</span>
+          <a href="#contato" class="btn btn-primary btn-block">Quero captar clientes agora</a>
+          <span class="btn-sub">Vagas limitadas por região · Diagnóstico gratuito</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ===================== CTA WHATSAPP (antigo formulário) ===================== -->
+  <!-- ===================== CTA WHATSAPP (final) ===================== -->
   <section class="section" id="contato">
     <div class="container">
       <div class="head-block center reveal">
         <span class="label-tag" style="justify-content:center;">Fale com a gente agora</span>
-        <h2 class="section-title">Sua vaga começa com <span class="accent">uma mensagem</span></h2>
-        <p class="section-lede" style="margin-left:auto; margin-right:auto;">Chame a gente no WhatsApp e tire todas as suas dúvidas sobre o Método Eugência em minutos.</p>
+        <h2 class="section-title">Sua agenda começa a encher com <span class="accent">uma mensagem</span></h2>
+        <p class="section-lede" style="margin-left:auto; margin-right:auto;">Chama no WhatsApp, faz um diagnóstico gratuito e recebe um plano de captação sob medida para o seu serviço.</p>
       </div>
 
       <div class="whatsapp-mega reveal">
@@ -1059,19 +1071,19 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
             <span class="whatsapp-mega__ring" aria-hidden="true"></span>
             <span class="whatsapp-mega__ring" aria-hidden="true"></span>
             <span class="whatsapp-mega__ring" aria-hidden="true"></span>
-            <span class="whatsapp-mega__bubble" aria-hidden="true">Oi! 👋 Quero saber mais</span>
+            <span class="whatsapp-mega__bubble" aria-hidden="true">Quero captar clientes 👋</span>
             <span class="whatsapp-mega__btn" aria-hidden="true">
               <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.77.46 3.45 1.35 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91C21.96 6.45 17.5 2 12.04 2Zm5.8 14.13c-.24.68-1.4 1.32-1.93 1.4-.5.08-1.11.11-1.79-.11-.41-.13-.94-.3-1.62-.6-2.85-1.23-4.71-4.1-4.85-4.29-.14-.19-1.16-1.54-1.16-2.94s.73-2.09 1-2.38c.26-.28.57-.35.76-.35.19 0 .38 0 .55.01.18.01.42-.07.65.5.24.58.81 2.01.88 2.16.07.15.12.32.02.51-.09.19-.14.31-.28.48-.14.17-.29.37-.42.5-.14.14-.29.29-.12.57.16.28.72 1.19 1.55 1.93 1.06.95 1.96 1.24 2.24 1.38.28.14.44.12.6-.07.16-.19.68-.79.87-1.06.18-.27.37-.22.62-.13.26.09 1.63.77 1.91.91.28.14.47.21.53.33.07.12.07.68-.17 1.35Z"/></svg>
             </span>
           </span>
           <span class="whatsapp-mega__cta-text">Falar no <span class="cyan">WhatsApp</span> agora</span>
-          <span class="whatsapp-mega__sub">Resposta rápida · Sem compromisso</span>
+          <span class="whatsapp-mega__sub">Diagnóstico gratuito · Sem compromisso</span>
         </a>
       </div>
     </div>
   </section>
 
-  <!-- ===================== FAQ + CTA FINAL ===================== -->
+  <!-- ===================== FAQ ===================== -->
   <section class="section" id="faq">
     <div class="container">
       <div class="head-block center reveal">
@@ -1080,31 +1092,35 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
       </div>
       <div class="faq-list reveal">
         <details class="faq-item">
-          <summary>Preciso entender de marketing pra participar?<span class="plus"></span></summary>
-          <div class="faq-a">Não. A mentoria parte do zero — foi pensada justamente para quem nunca trabalhou com marketing e sempre dependeu de outra pessoa para isso.</div>
+          <summary>Preciso entender de marketing pra contratar?<span class="plus"></span></summary>
+          <div class="faq-a">Não. A gente cuida de tudo: cria as campanhas, ajusta, responde e entrega os leads prontos. Você só atende o cliente.</div>
         </details>
         <details class="faq-item">
-          <summary>Funciona para House Cleaning e Construction?<span class="plus"></span></summary>
-          <div class="faq-a">Sim. O método foi construído pensando em negócios de serviço local nos EUA — essas categorias estão entre os públicos principais.</div>
+          <summary>Atende House Cleaning e Construction?<span class="plus"></span></summary>
+          <div class="faq-a">Sim. A gente é especializado em brasileiros donos de negócio de serviço local nos EUA — cleaning, construction, painting, roofing, landscaping, remodeling, HVAC, moving, entre outros.</div>
         </details>
         <details class="faq-item">
-          <summary>Preciso saber usar Google Ads ou Meta Ads?<span class="plus"></span></summary>
-          <div class="faq-a">Não é necessário nenhum conhecimento prévio — as ferramentas são ensinadas dentro dos módulos, do básico ao funcional.</div>
+          <summary>Quanto custa?<span class="plus"></span></summary>
+          <div class="faq-a">O serviço de gestão começa em US$ 497/mês. A verba de mídia (Google, Meta, Local Services) é definida no plano e fica por conta do cliente. Sem fidelidade longa.</div>
         </details>
         <details class="faq-item">
-          <summary>Vou precisar parar de trabalhar com minha agência?<span class="plus"></span></summary>
-          <div class="faq-a">[EDITAR: definir a posição oficial da mentoria — se o aluno pode manter a agência enquanto aprende, ou se a proposta é substituir.]</div>
+          <summary>Em quanto tempo começo a receber clientes?<span class="plus"></span></summary>
+          <div class="faq-a">Em média, as campanhas ficam no ar em até 7 dias após o diagnóstico. Os primeiros leads costumam chegar nas primeiras 2 semanas, dependendo da região e da verba.</div>
         </details>
         <details class="faq-item">
-          <summary>Quanto tempo preciso dedicar por semana?<span class="plus"></span></summary>
-          <div class="faq-a">[EDITAR: informar a carga horária estimada e o ritmo esperado da mentoria.]</div>
+          <summary>Como funciona o Call Center?<span class="plus"></span></summary>
+          <div class="faq-a">Atendemos em inglês e português, qualificamos o lead (serviço, região, urgência), agendamos e enviamos o cliente pronto no seu WhatsApp. Você só confirma e atende.</div>
+        </details>
+        <details class="faq-item">
+          <summary>Já tenho uma agência. Posso trocar?<span class="plus"></span></summary>
+          <div class="faq-a">Sim. A gente assume suas campanhas, avalia o que está rodando e melhora. Muitos clientes chegam cansados da agência anterior — em 30 dias a diferença aparece.</div>
         </details>
       </div>
 
       <div class="faq-cta reveal">
-        <h3>Você levou anos pra construir seu negócio.<br>Não deixe <span class="cyan">outra pessoa</span> ter mais controle sobre o crescimento dele do que você.</h3>
-        <p>Aprenda o necessário para entender, controlar e melhorar o marketing da sua própria empresa.</p>
-        <a href="#contato" class="btn btn-primary">Quero assumir o controle</a>
+        <h3>Você tem serviço de qualidade.<br>Agora é hora de ter <span class="cyan">clientes todo dia</span> batendo na sua porta.</h3>
+        <p>A gente cuida da captação. Você cuida do serviço.</p>
+        <a href="#contato" class="btn btn-primary">Quero captar clientes agora</a>
       </div>
     </div>
   </section>
@@ -1116,12 +1132,12 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
   <div class="container">
     <div class="footer-top">
       <div class="brand">
-        <span class="brand-badge"><img src="logo-icon.png" alt="Método Eugência" loading="lazy"></span>
-        <span class="brand-name">MÉTODO EUGÊNCIA<small>Marketing que gera resultados</small></span>
+        <span class="brand-badge"><img src="logo-icon.png" alt="Eugência" loading="lazy"></span>
+        <span class="brand-name">EUGÊNCIA<small>Tráfego pago que capta clientes</small></span>
       </div>
       <div class="footer-links">
         <a href="#dor">O problema</a>
-        <a href="#aprender">Módulos</a>
+        <a href="#servicos">Serviços</a>
         <a href="#oferta">Oferta</a>
         <a href="#faq">FAQ</a>
       </div>
@@ -1131,7 +1147,7 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2026 Mentoria Eugência. Todos os direitos reservados.</span>
+      <span>© 2026 Eugência. Todos os direitos reservados.</span>
       <span>[EDITAR: link Termos de Uso] · [EDITAR: link Política de Privacidade]</span>
     </div>
   </div>
@@ -1215,7 +1231,7 @@ src="https://www.facebook.com/tr?id=1039040055661934&ev=PageView&noscript=1"
     document.addEventListener('mousedown', () => ring.classList.add('hover'));
     document.addEventListener('mouseup', () => ring.classList.remove('hover'));
 
-    const hoverTargets = 'a, button, summary, .niche-chip, .pillar-card, .gbadge, .faq-item, .testi-card';
+    const hoverTargets = 'a, button, summary, .niche-chip, .pillar-card, .gbadge, .faq-item, .testi-card, .process-step';
     document.querySelectorAll(hoverTargets).forEach((el) => {
       el.addEventListener('mouseenter', () => ring.classList.add('hover'));
       el.addEventListener('mouseleave', () => ring.classList.remove('hover'));
